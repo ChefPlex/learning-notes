@@ -22,6 +22,12 @@ Some of this will be wrong. Some of it will get updated as I learn better. That 
 |------|---------------|
 | [TPM Craft: Notes on Running Programs at Scale](tpm-craft-notes.md) | Things learned running security, infrastructure, and compliance programs at enterprise scale that are not in any certification curriculum. On starting programs, planning, execution, stakeholders, teams, reporting, and finishing. Updated as the work teaches new things. |
 
+### Course Notes
+
+| Note | What It Covers |
+|------|---------------|
+| [SANS LDR553: Cyber Incident Management](sans-ldr553-course-notes.md) | Notes from completing SANS LDR553, taught by Steve Armstrong-Godwin. The course is not about technical IR - it is about leading the humans in the room when facts are incomplete and executives are impatient. Covers the 3 Whats executive briefing format, uncertainty discipline, credential blast-radius thinking, supplier incident management, and the GenAI component. Includes a summary of the capstone playbook produced during the course. |
+
 ---
 
 ## What Is Coming
