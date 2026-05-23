@@ -30,12 +30,6 @@ Some of this will be wrong. Some of it will get updated as I learn better. That 
 |------|---------------|
 | [SANS LDR553: Cyber Incident Management](sans-ldr553-course-notes.md) | Notes from completing SANS LDR553, taught by Steve Armstrong-Godwin. The course is not about technical IR - it is about leading the humans in the room when facts are incomplete and executives are impatient. Covers the 3 Whats executive briefing format, uncertainty discipline, credential blast-radius thinking, supplier incident management, and the GenAI component. Includes a summary of the capstone playbook produced during the course. |
 
-### Source Materials
-
-| Folder | What It Contains |
-|--------|----------------|
-| [year-up/](year-up/) | Teaching materials from my time as a volunteer instructor with Year Up, a workforce development program for young adults entering tech careers. Four slide decks from the ProSkills and Project Prep curriculum (Fall 2015 and Fall 2016 cohorts). The Thanksgiving deck in this folder is the original source material for the rebuilt [PM: A Thanksgiving Story](https://github.com/ChefPlex/tpm-templates/blob/main/PM_Thanksgiving_Story.pptx) presentation in tpm-templates. See the [year-up README](year-up/README.md) for full context. |
-
 ---
 
 ## What Is Coming
@@ -44,6 +38,7 @@ Some of this will be wrong. Some of it will get updated as I learn better. That 
 
 | Note | What It Will Cover |
 |------|-------------------|
+| Cryptography Fundamentals for TPMs | Symmetric vs. asymmetric encryption, hashing, digital signatures, key exchange - enough to understand what the engineering team is doing and why it matters |
 | Identity and Access Management Concepts | Authentication vs. authorization, OAuth, SAML, MFA, privileged access management - the concepts behind IAM programs |
 | Cloud Security Architecture | Shared responsibility model, cloud-native security controls, multi-cloud security considerations - what changes when the infrastructure is someone else's |
 | AI/ML Security: A TPM's Field Guide | Prompt injection, training data exposure, model governance, the emerging compliance landscape for AI systems - notes from the current frontier |
