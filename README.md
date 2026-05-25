@@ -34,7 +34,7 @@ Some of this will be wrong. Some of it will get updated as I learn better. That 
 
 | Folder | What It Contains |
 |--------|----------------|
-| [year-up/](year-up/) | Teaching materials from my time as a volunteer instructor with Year Up, a workforce development program for young adults entering tech careers. Four slide decks from the ProSkills and Project Prep curriculum (Fall 2015 and Fall 2016 cohorts). The Thanksgiving deck in this folder is the original source material for the rebuilt [PM: A Thanksgiving Story](https://github.com/ChefPlex/tpm-templates/blob/main/PM_Thanksgiving_Story.pptx) presentation in tpm-templates. See the [year-up README](year-up/README.md) for full context. |
+| [year-up/](year-up/) | Teaching materials from my time as a volunteer instructor with Year Up, a workforce development program for young adults entering tech careers. Four slide decks from the ProSkills and Project Prep curriculum (Fall 2015 and Fall 2016 cohorts). The Thanksgiving deck in this folder is the original source for the rebuilt [PM: A Thanksgiving Story](https://github.com/ChefPlex/tpm-templates/blob/main/PM_Thanksgiving_Story.pptx) in tpm-templates. See the [year-up README](year-up/README.md) for full context. |
 
 ---
 
