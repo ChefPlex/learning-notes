@@ -38,24 +38,35 @@ Some of this will be wrong. Some of it will get updated as I learn better. That 
 
 ---
 
-## What Is Coming
+## Where the AI Security Material Actually Lives
 
-### Technical Concepts
+This section used to promise an "AI/ML Security: A TPM's Field Guide" covering prompt injection,
+model governance, and the compliance landscape for AI systems. **Most of it got written, and none of
+it got written here** - it shipped into the repos where it was useful instead:
 
-| Note | What It Will Cover |
+| Topic | Where it landed |
+|-------|----------------|
+| Prompt injection, trust boundaries, permission-aware retrieval | [enterprise-rag-security](https://github.com/ChefPlex/security-program-playbooks/tree/main/enterprise-rag-security) in security-program-playbooks |
+| Model governance, execution tiers, where AI belongs in a company | [frameworks](https://github.com/ChefPlex/ai-automations/tree/main/frameworks) in ai-automations |
+| AI tooling under HIPAA and SOC 2, BAA gating, data classification | [AI Tooling in Regulated Environments](https://github.com/ChefPlex/security-program-playbooks/blob/main/ai-tooling-regulated-data.md) |
+
+Leaving a "coming soon" up while the work sits finished in the next repo over is worse than never
+having listed it, so the list is replaced with pointers. **The lesson generalizes: a per-repo roadmap
+goes stale the moment work ships somewhere else, and nobody re-reads a roadmap to notice.**
+
+## Still Unwritten
+
+Honest about these, and they are not scheduled. They get written when there is something to say
+that is not already said better elsewhere.
+
+| Note | What It Would Cover |
 |------|-------------------|
 | Identity and Access Management Concepts | Authentication vs. authorization, OAuth, SAML, MFA, privileged access management - the concepts behind IAM programs |
 | Cloud Security Architecture | Shared responsibility model, cloud-native security controls, multi-cloud security considerations - what changes when the infrastructure is someone else's |
-| AI/ML Security: A TPM's Field Guide | Prompt injection, training data exposure, model governance, the emerging compliance landscape for AI systems - notes from the current frontier |
-
-### Craft and Practice
-
-| Note | What It Will Cover |
-|------|-------------------|
-| Book Notes: An Elegant Puzzle | Will Larson's systems-oriented approach to engineering management - useful reading for TPMs thinking about organizational scale |
-| Book Notes: Staff Engineer | Tanya Reilly's framework for operating at senior individual contributor level - relevant for TPMs thinking about influence without authority |
-| Lessons from Leading Large-Scale Encryption Programs | Patterns and anti-patterns from running encryption modernization at scale - what works, what does not, and what nobody tells you at the start |
+| Lessons from Leading Large-Scale Encryption Programs | Patterns and anti-patterns from running encryption modernization at scale - what works, what does not, and what nobody tells you at the start. **The one with the most real experience behind it and the largest gap between that experience and what is written down** |
 | Working with Compliance Teams | How to build a productive working relationship with GRC, what they need from you, and how to avoid the most common friction points |
+| Book Notes: An Elegant Puzzle | Will Larson's systems-oriented approach to engineering management |
+| Book Notes: Staff Engineer | Tanya Reilly's framework for operating at senior individual contributor level |
 
 ---
 
