@@ -16,6 +16,7 @@ Some of this will be wrong. Some of it will get updated as I learn better. That 
 |------|---------------|
 | [System Design Concepts for Security TPMs](system-design-concepts-for-tpms.md) | Working notes on the distributed systems and security concepts that come up most in large-scale platform security programs - encryption, PKI, TLS, zero trust, compliance frameworks, and emerging AI security considerations. Written from a TPM perspective: enough to be useful in the room, not a deep implementation guide. |
 | [Cryptography Fundamentals for TPMs](cryptography-fundamentals-for-tpms.md) | Symmetric and asymmetric encryption, hashing, digital signatures, certificates and PKI, key management, deprecated algorithms, and the questions worth asking during technical reviews. Written for TPMs who need to understand what the engineering team is building without becoming cryptographers. |
+| [Lessons from Leading Large-Scale Encryption Programs](lessons-from-large-scale-encryption-programs.md) | What nobody tells you at the start. Seven lessons from encryption modernization at scale: why analysis time is the thing to protect, executive visibility as a lever rather than reporting, automating the count so status is observed instead of self-reported, why priority is displacement and does not propagate down the chain on its own, what we were wrong about at the outset, and how these programs actually end - at diminishing returns, with the scope reduced deliberately, not at 100 percent. Companion piece: [Encryption Program Playbook](https://github.com/ChefPlex/security-program-playbooks/blob/main/encryption-program-playbook.md) in security-program-playbooks. |
 
 ### Craft and Practice
 
@@ -63,7 +64,6 @@ that is not already said better elsewhere.
 |------|-------------------|
 | Identity and Access Management Concepts | Authentication vs. authorization, OAuth, SAML, MFA, privileged access management - the concepts behind IAM programs |
 | Cloud Security Architecture | Shared responsibility model, cloud-native security controls, multi-cloud security considerations - what changes when the infrastructure is someone else's |
-| Lessons from Leading Large-Scale Encryption Programs | Patterns and anti-patterns from running encryption modernization at scale - what works, what does not, and what nobody tells you at the start. **The one with the most real experience behind it and the largest gap between that experience and what is written down** |
 | Working with Compliance Teams | How to build a productive working relationship with GRC, what they need from you, and how to avoid the most common friction points |
 | Book Notes: An Elegant Puzzle | Will Larson's systems-oriented approach to engineering management |
 | Book Notes: Staff Engineer | Tanya Reilly's framework for operating at senior individual contributor level |
