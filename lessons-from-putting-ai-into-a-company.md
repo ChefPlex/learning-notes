@@ -398,6 +398,52 @@ the easy path and buying people proper accounts are **the same action**. The con
 convenience are not in tension here, they are purchased together - which is unusual enough in
 security work to be worth saying out loud.
 
+## 7. 🔑 Provenance is the old problem, and library science already solved it once
+
+**When the web took off, nobody knew how to judge a page.** Anything could look authoritative. The
+discipline that supplied the answer was not computer science, it was **library science** - the
+existing practice of asking, of any document: **who wrote this, who published it, who paid for it,
+and when.**
+
+Applied to a web page, that gave you the thing that actually mattered: **a route back to whoever was
+responsible**, so that if something was wrong you knew whose door to knock on.
+
+**The same question is now the AI question**, and it applies to any tool that creates or publishes
+anything:
+
+> **Where did this come from, and what is its provenance?**
+
+### Why this is the operational concern and not the philosophical one
+
+It is tempting to file provenance under ethics or compliance. **It is neither. It is
+maintainability.**
+
+- **You cannot correct what you cannot trace.** A document, a decision, or a body of code with no
+  provenance is not merely unattributed - it is unfixable, because nobody knows who understood it.
+- **You cannot review what you cannot attribute.** The distinction between fully generated, partly
+  generated, and generated-then-reviewed only exists if somebody recorded which one happened.
+- **You cannot improve a process you cannot reconstruct.** This is why the delivery framework keeps
+  thread, cost and decision logs and voids artifacts rather than deleting them: **a superseded
+  version usually explains why the current one looks the way it does.**
+
+### It also explains why every governance standard converges on the same thing
+
+Look across the AI management standards, the risk frameworks and the regulation and the common
+thread is not any particular control. **It is a named accountable person and a traceable record.**
+The EU AI Act's transparency carve-out turns on *a natural or legal person holding editorial
+responsibility.* The management standards ask who owns the system. Every one of them is asking the
+library-science question in its own vocabulary.
+
+**Which means the practical work is the same regardless of which regime you land under**, and you
+can do it before you know: **record what produced a thing, who reviewed it, and who is answerable
+for it.** That is cheap while the work is happening and close to impossible to reconstruct
+afterwards.
+
+⚠️ **The failure is silent and it compounds.** Nobody notices missing provenance until the day
+something is wrong and there is no route back - by which point the person who knew has moved on and
+the record was never kept. **Provenance is not documentation overhead. It is the thing that keeps
+the work correctable.**
+
 ---
 
 ## The short version
@@ -419,3 +465,6 @@ If you are handed this tomorrow:
    action items convert skeptics
 8. **Watch your own gates for rubber-stamping**, calibrate friction to consequence, and consolidate
    many small confirmations into one decision that actually gets read
+9. **Record provenance while the work is happening** - what produced it, who reviewed it, who is
+   answerable - because it is cheap now and unreconstructable later, and it is what keeps the work
+   correctable rather than merely attributed
