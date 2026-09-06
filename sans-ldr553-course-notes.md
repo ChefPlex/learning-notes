@@ -8,17 +8,17 @@
 
 ## Why This Course
 
-I have spent most of my career on the program side of security - building the encryption programs, the PKI infrastructure, the compliance frameworks. The incident side was always adjacent work: something happened, the IR and SOC teams ran the response, the TPM showed up to track remediation actions and report status to leadership.
+I've spent most of my career on the program side of security - building the encryption programs, the PKI infrastructure, the compliance frameworks. The incident side was always adjacent work: something happened, the IR and SOC teams ran the response, the TPM showed up to track remediation actions and report status to leadership.
 
-LDR553 made me rethink that division. The skills the course is actually teaching are not technical incident response skills - those belong to the SOC and IR engineers. The skills are about leading the humans in the room when the facts are incomplete, the executives are impatient, and the clock is running. That is TPM territory.
+LDR553 made me rethink that division. The skills the course is actually teaching aren't technical incident response skills - those belong to the SOC and IR engineers. The skills are about leading the humans in the room when the facts are incomplete, the executives are impatient, and the clock is running. That is TPM territory.
 
-The gap between a technical team that understands what is happening and an executive audience that needs to make decisions about it does not close itself. This course gave me better tools for closing it.
+The gap between a technical team that understands what is happening and an executive audience that needs to make decisions about it doesn't close itself. This course gave me better tools for closing it.
 
 ---
 
 ## What the Course Covers
 
-LDR553 runs five days through a fictional company called Submarine Studios, which experiences a progressively more complex cyber incident throughout the week. Each day adds new complications: the attacker escalates, a third party is involved, regulators come into the picture, and eventually you are dealing with questions about AI systems, ransomware, and regulated manufacturing. Nine case studies total, building on each other.
+LDR553 runs five days through a fictional company called Submarine Studios, which experiences a progressively more complex cyber incident throughout the week. Each day adds new complications: the attacker escalates, a third party is involved, regulators come into the picture, and eventually you're dealing with questions about AI systems, ransomware, and regulated manufacturing. Nine case studies total, building on each other.
 
 The lab structure maps roughly to this:
 
@@ -52,7 +52,7 @@ The lab structure maps roughly to this:
 
 The most useful framework from the course is simple: separate everything into facts, assumptions, unknowns, decisions, and constraints. Every briefing, every update, every conversation with leadership should make this separation visible.
 
-A fact is evidence-backed, tied to a source and a time. An assumption is a reasonable theory you are using to prioritize work - stated as an assumption, not presented as a fact. An unknown is a material question that, if answered differently, would change what you do next.
+A fact is evidence-backed, tied to a source and a time. An assumption is a reasonable theory you're using to prioritize work - stated as an assumption, not presented as a fact. An unknown is a material question that, if answered differently, would change what you do next.
 
 The reason this matters: under pressure, assumptions migrate into facts. Someone says "we think the domain is compromised" in hour one and by hour six it has become "the domain was compromised" in the executive briefing - without the evidence actually changing. That is how incidents get mismanaged. Explicit uncertainty tracking prevents it.
 
@@ -68,15 +68,15 @@ The discipline here is keeping each section to five bullets or fewer, and never 
 
 ### Credentials are a blast-radius problem
 
-One of the most practically useful reframes from the course: a credential compromise is never just one password. It is sessions, tokens, OAuth grants, app passwords, API keys, SSH keys, mailbox rules, shared files, recovery accounts, and every other place that credential touches.
+One of the most practically useful reframes from the course: a credential compromise is never just one password. It's sessions, tokens, OAuth grants, app passwords, API keys, SSH keys, mailbox rules, shared files, recovery accounts, and every other place that credential touches.
 
-Resetting a password without killing sessions is not closure. Rotating an API key without reviewing what it accessed is not closure. The credential loss impact assessment lab made this concrete: the checklist for a single compromised account is longer than most organizations run through.
+Resetting a password without killing sessions is not closure. Rotating an API key without reviewing what it accessed isn't closure. The credential loss impact assessment lab made this concrete: the checklist for a single compromised account is longer than most organizations run through.
 
 ### Suppliers start as major incidents
 
-The third-party incident management content was the part of the course I found most practically useful for TPM work. The default posture the course teaches: treat a supplier security notice as a major incident until evidence proves your access, data, service, and customer exposure are not affected.
+The third-party incident management content was the part of the course I found most practically useful for TPM work. The default posture the course teaches: treat a supplier security notice as a major incident until evidence proves your access, data, service, and customer exposure aren't affected.
 
-Supplier legal notices are almost never enough. A vague statement that there was "an incident" and the supplier has "taken steps" to address it is not information. The course gives a structured RFI - request for information - with specific questions that elicit real answers: what was the timeline, what of ours was accessible, which of our credentials or access paths existed, what has been revoked.
+Supplier legal notices are almost never enough. A vague statement that there was "an incident" and the supplier has "taken steps" to address it's not information. The course gives a structured RFI - request for information - with specific questions that elicit real answers: what was the timeline, what of ours was accessible, which of our credentials or access paths existed, what has been revoked.
 
 The confidence scoring framework for supplier answers is practical: high confidence means specific logs, timestamps, scope, access lists, and containment evidence. Low confidence means generic reassurance, no named owner, and shifting answers. Low confidence means maintain worst-case posture.
 
@@ -94,7 +94,7 @@ The framing I found most useful: no message should outrun the evidence. Draft ea
 
 ### The IC does not need perfect knowledge to manage well
 
-The final line of the capstone playbook: "The IC does not need perfect knowledge to manage well. The IC needs clear ownership, evidence discipline, honest uncertainty, controlled communications, and a repeatable rhythm for decisions."
+The final line of the capstone playbook: "The IC doesn't need perfect knowledge to manage well. The IC needs clear ownership, evidence discipline, honest uncertainty, controlled communications, and a repeatable rhythm for decisions."
 
 That is the summary of the course. And it applies well beyond incident management.
 
@@ -104,7 +104,7 @@ That is the summary of the course. And it applies well beyond incident managemen
 
 Lab 1.5 was genuinely interesting - building GPTs in OpenAI to assist with incident management work. The practical applications the course explored: drafting executive briefings from raw incident notes, simulating stakeholder reactions to test communications before sending them, and structuring analysis of complex evidence logs.
 
-The AI security scenario in the capstone (Lab 5.4 in the full playbook) covered GenAI application compromise specifically - prompt injection, authorization failures, data exposure across tenants. The key point: authorization must be enforced server-side, not through prompt wording. A system prompt that says "only share data with authorized users" is not an access control. It is a suggestion.
+The AI security scenario in the capstone (Lab 5.4 in the full playbook) covered GenAI application compromise specifically - prompt injection, authorization failures, data exposure across tenants. The key point: authorization must be enforced server-side, not through prompt wording. A system prompt that says "only share data with authorized users" isn't an access control. It is a suggestion.
 
 ---
 
@@ -133,7 +133,7 @@ The playbook lives in `security-program-playbooks` as a sanitized reference docu
 
 ## Recommended For
 
-Security TPMs, incident commanders, and anyone who sits between technical response teams and executive leadership during a security event. The technical IR skills are not the gap this course closes - the gap it closes is the leadership and communications discipline that keeps a complex incident from being managed by whoever is loudest in the room.
+Security TPMs, incident commanders, and anyone who sits between technical response teams and executive leadership during a security event. The technical IR skills aren't the gap this course closes - the gap it closes is the leadership and communications discipline that keeps a complex incident from being managed by whoever is loudest in the room.
 
 If you work in an organization that runs tabletop exercises, the exercise program design content alone (Labs 3.1 and 3.2) is worth the time.
 

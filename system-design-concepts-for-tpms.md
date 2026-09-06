@@ -1,6 +1,6 @@
 # System Design Concepts for Security TPMs
 
-You do not need to be a systems architect to run platform security programs. But you need to understand the systems well enough to ask the right questions, recognize when an engineering decision has security implications, and translate technical tradeoffs into language a stakeholder can act on.
+You don't need to be a systems architect to run platform security programs. But you need to understand the systems well enough to ask the right questions, recognize when an engineering decision has security implications, and translate technical tradeoffs into language a stakeholder can act on.
 
 These are working notes on the distributed systems and security concepts that come up most often in large-scale platform security programs. Written from a TPM perspective - not a deep dive into implementation, but enough to be useful in the room.
 
@@ -16,7 +16,7 @@ These are working notes on the distributed systems and security concepts that co
 
 Both matter. A system that encrypts at rest but not in transit protects data from someone who steals a disk but not from someone who intercepts network traffic. A system that encrypts in transit but not at rest protects data on the wire but not if the storage layer is compromised.
 
-**What this means for a program:** Encryption programs typically need to address both surfaces separately. Encryption in transit programs often involve TLS modernization across services. Encryption at rest programs often involve key management infrastructure and storage layer changes. They are different engineering problems with different teams, different tooling, and different timelines.
+**What this means for a program:** Encryption programs typically need to address both surfaces separately. Encryption in transit programs often involve TLS modernization across services. Encryption at rest programs often involve key management infrastructure and storage layer changes. They're different engineering problems with different teams, different tooling, and different timelines.
 
 ### TLS
 
@@ -30,17 +30,17 @@ A TLS modernization program typically involves: inventorying all services and en
 
 ### PKI and Certificate Lifecycle
 
-PKI (Public Key Infrastructure) is the system that issues, manages, and revokes digital certificates. Certificates are what makes TLS work - a certificate tells a client that the server it is talking to is who it claims to be.
+PKI (Public Key Infrastructure) is the system that issues, manages, and revokes digital certificates. Certificates are what makes TLS work - a certificate tells a client that the server it's talking to is who it claims to be.
 
 Certificates have expiration dates. An expired certificate breaks service - most clients will refuse to connect to a server with an expired cert. Certificate lifecycle management is the discipline of making sure certificates get renewed before they expire.
 
-**What a TPM needs to know:** Certificate expiration events are predictable outages. A well-run PKI program has automated renewal, an inventory of all certificates and their expiration dates, and alerting that surfaces upcoming expirations before they become emergencies. If you are running a program that touches certificate infrastructure, ask how renewals are being automated and what the alert threshold is for upcoming expirations.
+**What a TPM needs to know:** Certificate expiration events are predictable outages. A well-run PKI program has automated renewal, an inventory of all certificates and their expiration dates, and alerting that surfaces upcoming expirations before they become emergencies. If you're running a program that touches certificate infrastructure, ask how renewals are being automated and what the alert threshold is for upcoming expirations.
 
 ### HSM (Hardware Security Module)
 
-An HSM is a physical device that generates, stores, and manages cryptographic keys. Keys stored in an HSM cannot be exported in plaintext - the HSM performs cryptographic operations with the key without ever exposing it.
+An HSM is a physical device that generates, stores, and manages cryptographic keys. Keys stored in an HSM can't be exported in plaintext - the HSM performs cryptographic operations with the key without ever exposing it.
 
-Enterprise HSMs (Thales, Entrust, formerly Gemalto) are the standard in regulated environments. They are expensive, operationally complex, and compliance-required in many contexts (PCI HSM requirements, for example).
+Enterprise HSMs (Thales, Entrust, formerly Gemalto) are the standard in regulated environments. They're expensive, operationally complex, and compliance-required in many contexts (PCI HSM requirements, for example).
 
 **What a TPM needs to know:** HSM procurement, provisioning, and integration have long lead times. If your program depends on HSM infrastructure, start that work earlier than you think you need to.
 
@@ -58,11 +58,11 @@ A security program at enterprise scale often involves tracking and securing hund
 
 ### Certificates and mTLS
 
-Standard TLS authenticates the server to the client - you know you are talking to the right server. mTLS (mutual TLS) authenticates both sides - the server also knows it is talking to the right client. This is important for service-to-service communication inside a platform, where you want to ensure that only authorized services can call each other.
+Standard TLS authenticates the server to the client - you know you're talking to the right server. mTLS (mutual TLS) authenticates both sides - the server also knows it's talking to the right client. This is important for service-to-service communication inside a platform, where you want to ensure that only authorized services can call each other.
 
 mTLS is common in zero trust architectures and service mesh implementations (Istio, Linkerd, etc.).
 
-**What a TPM needs to know:** mTLS programs often involve rolling out a service mesh or a certificate management system across a large number of services simultaneously. That is a complex, high-coordination migration. Understand the rollout sequence, the rollback plan, and what happens to services that cannot be migrated on the primary timeline.
+**What a TPM needs to know:** mTLS programs often involve rolling out a service mesh or a certificate management system across a large number of services simultaneously. That is a complex, high-coordination migration. Understand the rollout sequence, the rollback plan, and what happens to services that can't be migrated on the primary timeline.
 
 ### Zero Trust
 
@@ -92,7 +92,7 @@ Industry standard for organizations that handle credit card data. Covers encrypt
 
 ### HIPAA (Health Insurance Portability and Accountability Act)
 
-US law governing the privacy and security of health information. The Security Rule covers electronic protected health information (ePHI) - how it is stored, transmitted, and accessed.
+US law governing the privacy and security of health information. The Security Rule covers electronic protected health information (ePHI) - how it's stored, transmitted, and accessed.
 
 **TPM relevance:** Any program at a healthcare organization or involving health data requires HIPAA analysis. Key controls: encryption of ePHI in transit and at rest, access controls, audit logging, breach notification procedures.
 
@@ -100,7 +100,7 @@ US law governing the privacy and security of health information. The Security Ru
 
 US government framework for cloud services used by federal agencies. Rigorous and prescriptive - FedRAMP authorization is a significant program in itself.
 
-**TPM relevance:** FedRAMP programs have strict timelines, extensive documentation requirements, and external assessors (3PAOs). Start compliance work early - FedRAMP authorization typically takes 12-18 months and cannot be rushed at the end.
+**TPM relevance:** FedRAMP programs have strict timelines, extensive documentation requirements, and external assessors (3PAOs). Start compliance work early - FedRAMP authorization typically takes 12-18 months and can't be rushed at the end.
 
 ### SOC 2 (Service Organization Control 2)
 
@@ -134,7 +134,7 @@ The security principle that multiple layers of controls are more effective than 
 
 Applied to a platform security program: encryption in transit plus encryption at rest plus access controls plus audit logging is more secure than any one of those alone - and the combination is what most compliance frameworks require.
 
-**What a TPM needs to know:** When a security program is making tradeoffs due to resource constraints or timeline pressure, defense in depth is the framework for evaluating what to prioritize. A gap in one layer that is compensated by strength in another may be an acceptable interim state. A gap with no compensating control is a risk that needs to be named explicitly.
+**What a TPM needs to know:** When a security program is making tradeoffs due to resource constraints or timeline pressure, defense in depth is the framework for evaluating what to prioritize. A gap in one layer that's compensated by strength in another may be an acceptable interim state. A gap with no compensating control is a risk that needs to be named explicitly.
 
 ---
 
@@ -146,13 +146,13 @@ This section is intentionally brief - the field is moving fast and anything more
 
 **AI in security operations:** Machine learning models are increasingly used for anomaly detection, threat hunting, and log analysis. These tools can surface signals that would otherwise be lost in the noise of large-scale platforms.
 
-**What a TPM needs to know:** AI security is not yet a mature discipline with established compliance frameworks and standard controls. Programs in this space require closer collaboration with security architects and researchers, and more tolerance for ambiguity in what "done" looks like.
+**What a TPM needs to know:** AI security isn't yet a mature discipline with established compliance frameworks and standard controls. Programs in this space require closer collaboration with security architects and researchers, and more tolerance for ambiguity in what "done" looks like.
 
 ---
 
 ## Further Reading
 
-These are worth the time if you are going deeper in any of these areas:
+These are worth the time if you're going deeper in any of these areas:
 
 - *Designing Data-Intensive Applications* by Martin Kleppmann - distributed systems fundamentals
 - *The Web Application Hacker's Handbook* - attack surface understanding

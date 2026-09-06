@@ -11,9 +11,9 @@ These are patterns that generalize. The specifics of any one organization will n
 
 ---
 
-## 1. 🔑 The thing everyone gets wrong: you are not introducing AI. It is already there.
+## 1. 🔑 It is already there, and the first job is finding out where
 
-**The belief going in is that you are bringing AI into the company. You are not. It is already in
+**The belief going in is that you're bringing AI into the company. You are not. It is already in
 use, everywhere, in every fashion, and it got there without you.**
 
 This single misreading invalidates most governance plans before they start, because a plan to
@@ -22,15 +22,15 @@ programs with different first steps.
 
 ### So the first job is discovery, not rollout
 
-**You have to find out who is doing what, where.** And it is chaotic, because nobody coordinated it
+**You have to find out who is doing what, where.** And it's chaotic, because nobody coordinated it
 and nobody was supposed to. People had work to do and reached for whatever helped.
 
 Only after that can you ask the two real questions:
 
-1. **Is what they are already doing what the business actually needs?** Sometimes yes. People
+1. **Is what they're already doing what the business actually needs?** Sometimes yes. People
    closest to the work often found something good before anyone approved it.
 2. **Or do they need pushing in a different direction?** Which is a redirection problem, not an
-   adoption problem, and it is much harder - you are asking someone to give up something that is
+   adoption problem, and it's much harder - you're asking someone to give up something that's
    already working for them.
 
 ⚠️ **This is the same shape as the discovery problem in any large remediation program.** In
@@ -38,7 +38,7 @@ encryption modernization, the first finding is that nobody knows what is already
 nobody knows what AI is already in use. **In both cases the instinct is to start fixing, and in
 both cases the denominator is unknown and the fixing is premature.**
 
-### The mechanism underneath it, and it is not going to change
+### The mechanism underneath it, and why it holds
 
 > **People take the easiest path to get things done.**
 
@@ -49,7 +49,7 @@ around you.
 
 ### Therefore: make the sanctioned path the easy one
 
-The design goal is that **the easiest path - or realistically, the second-easiest path that does not
+The design goal is that **the easiest path - or realistically, the second-easiest path that doesn't
 get them in trouble - is the one that gets them across the finish line**, and keeps the work inside
 a walled garden where governance is even possible.
 
@@ -58,13 +58,13 @@ Note what that formulation concedes, because the concession is what makes it wor
 - **The sanctioned path may never be the single easiest option**, and pretending otherwise produces
   a policy nobody follows. Consumer tools with no controls will usually be more convenient than
   anything you can approve.
-- **It has to be close enough that the risk tips the balance.** "Second easiest, and it does not get
+- **It has to be close enough that the risk tips the balance.** "Second easiest, and it doesn't get
   you in trouble" is an honest target and an achievable one.
-- **You are competing on convenience, not on authority.** The moment the approved path costs
+- **You're competing on convenience, not on authority.** The moment the approved path costs
   materially more effort, usage migrates back out and your registry silently becomes fiction.
 
-**A walled garden is not a restriction, it is the precondition for governing anything at all.** You
-cannot review, inventory, or set a cadence over work you cannot see. Everything in the framework
+**A walled garden isn't a restriction, it's the precondition for governing anything at all.** You
+can't review, inventory, or set a cadence over work you can't see. Everything in the framework
 depends on the work happening somewhere you can observe it, and the only reliable way to achieve
 that is to make the observable path the convenient one.
 
@@ -75,11 +75,11 @@ carried the program was the one that was **easier**, not the one that was most c
 team built the path and the teams adopted it, because adopting something that already worked was
 cheaper than solving it themselves.
 
-**Two unrelated programs, same conclusion: you do not win adoption by mandating the right thing. You
+**Two unrelated programs, same conclusion: you don't win adoption by mandating the right thing. You
 win it by making the right thing the easy thing.** Mandates set direction. Convenience determines
 what actually happens.
 
-## 2. Where AI belongs is not decided by analysis. It is decided by how people feel about it.
+## 2. The map gets drawn by how people feel about it
 
 **The classification questions in a framework are objective. The people answering them are not.**
 
@@ -112,10 +112,10 @@ sequence, rather than as a categorically new thing, does more for adoption than 
 document** - because it moves the question from "is this safe and am I allowed" to "is this better
 than what I was doing," which is a question people already know how to answer.
 
-⚠️ **This is not a rhetorical trick and it should not be used as one.** The comparison is honest:
+⚠️ **This isn't a rhetorical trick and it shouldn't be used as one.** The comparison is honest:
 each of those transitions genuinely changed what work looked like, genuinely displaced something,
 and genuinely turned out fine for the people who learned the new tool. **Someone who is afraid is
-not wrong that something is changing.** They are wrong that it is unprecedented.
+not wrong that something is changing.** They're wrong that it's unprecedented.
 
 ### Make it easy to *try*, which is a different problem from making it easy to *use*
 
@@ -123,52 +123,52 @@ Lesson 1 is about the sanctioned path being convenient. This is narrower and it 
 **lower the stakes of the first attempt.**
 
 People get locked up about how it will go. If trying the tool feels like a commitment, or like a
-test they might fail publicly, or like a decision they will be held to, **they will not form a view
+test they might fail publicly, or like a decision they will be held to, **they won't form a view
 from experience - they will keep the one they arrived with.** And the one they arrived with is
 either fear or hunger, neither of which is information.
 
 **Cheap, low-stakes, reversible trials are the only thing that moves either group toward the
-middle.** They are also, not coincidentally, how you find out where the tool is actually good, which
+middle.** They're also, not coincidentally, how you find out where the tool is actually good, which
 is the input the map needed in the first place.
 
 ## 3. 🔑 The real objection is headcount, and it is rational
 
-**When people push back on the exercise itself, it is almost never about the tool. It is about what
+**When people push back on the exercise itself, it's almost never about the tool. It is about what
 the map will be used for.**
 
 The fear has two faces, and the second one is the one that gets missed:
 
 1. **Losing people they already have.** The obvious version.
-2. **Being unable to hire people they do not have yet.** The subtler and more common one. A manager
+2. **Being unable to hire people they don't have yet.** The subtler and more common one. A manager
    with a growing team, already being asked to take on more work, reads a map showing AI leverage in
    their function and sees the argument that will be used against their next headcount request.
 
-**Both reduce to the same question, and it is a fair one:** *am I going to be asked to do more work
+**Both reduce to the same question, and it's a fair one:** *am I going to be asked to do more work
 with fewer people, and then more work again with fewer still, while the expectation stays the same?*
 
-### It is about standing, not only staffing
+### The quieter half of the objection is standing
 
-Team size is not just capacity. It is trajectory, scope and standing - **what someone runs and where
-they are going.** Asking a manager to document where their function could be more efficient is
+Team size is not just capacity. It's trajectory, scope and standing - **what someone runs and where
+they're going.** Asking a manager to document where their function could be more efficient is
 asking them to write the case against their own growth, in public, with their name on it.
 
-**Nobody is being obstructive when they hesitate at that.** They are reading the situation
+**Nobody is being obstructive when they hesitate at that.** They're reading the situation
 correctly.
 
-### Say plainly why this is not irrational
+### Concede the rational part out loud
 
 ⚠️ **If efficiency findings have ever been used to justify cuts anywhere in the organization's
-history, people have learned the correct lesson and they will apply it here.** You are not arguing
-against a superstition. You are arguing against evidence, and you should know which one you are
+history, people have learned the correct lesson and they will apply it here.** You aren't arguing
+against a superstition. You're arguing against evidence, and you should know which one you're
 doing.
 
-### The stated purpose does not settle it. The first case does.
+### The first case sets the precedent, whatever the policy says
 
 The framework says the point is leverage rather than replacement - finding the work that was never
-worth a person's attention so the person can do the work that is. **Saying that does not make anyone
+worth a person's attention so the person can do the work that's. **Saying that does not make anyone
 believe it.**
 
-**What settles it is what happens to the first team that reports a real efficiency gain.**
+**What settles it's what happens to the first team that reports a real efficiency gain.**
 
 - If that team keeps its headcount and gets more interesting work, the message travels faster than
   any policy document, and honest reporting becomes safe.
@@ -177,7 +177,7 @@ believe it.**
 
 🔗 **And note where that lands: a map built on under-reported gains is fiction.** Which is the same
 failure as lesson 1's registry going stale when people route around a slow path. **Two different
-self-protective behaviours, one identical outcome - the data you are governing from stops being
+self-protective behaviours, one identical outcome - the data you're governing from stops being
 true.** Watch for both, because neither announces itself.
 
 ### The other objection is real too, and cheaper to fix
@@ -186,7 +186,7 @@ true.** Watch for both, because neither announces itself.
 something new, and it lands hardest on people who are already good at doing it the current way.
 
 That one is answerable with time, decent onboarding, and the low-stakes trials from lesson 2.
-**The headcount objection is not answerable that way, and treating them as the same problem wastes
+**The headcount objection isn't answerable that way, and treating them as the same problem wastes
 the answer on the easier half.**
 
 ## 4. 🔑 Show them it makes their life better. Do not mandate it.
@@ -198,17 +198,17 @@ is a mandate: adopt the tool, use the tool, keep using the tool, and usage gets 
 
 A mandate produces exactly one thing reliably: **usage metrics.** People will open the tool, do
 something nominal, and go back to however they were working. You get a number that goes up and a
-practice that does not change, and you have spent the goodwill you needed for the part that
+practice that doesn't change, and you've spent the goodwill you needed for the part that
 mattered.
 
-The alternative is slower at the start and it is the only thing that compounds: **let people warm up
+The alternative is slower at the start and it's the only thing that compounds: **let people warm up
 to it, and show them how it makes their own work easier.**
 
 ### Why this is the answer to lesson 3, specifically
 
 You cannot argue someone out of the headcount fear. **But someone whose own week got measurably
 better stops relating to the tool as a threat to their job and starts relating to it as something
-that helps them do it.** That shift is not achievable by policy and it is not achievable by
+that helps them do it.** That shift isn't achievable by policy and it's not achievable by
 reassurance. It is achievable by an afternoon where the thing actually helped.
 
 **So the first uses you promote should be chosen for whether they make an individual's day better,
@@ -228,13 +228,13 @@ nothing at risk:
   accelerates work directly**, and it does the thing people find genuinely tedious rather than the
   thing they find satisfying.
 
-Note what these two have in common, because it is the selection criterion:
+Note what these two have in common, because it's the selection criterion:
 
 - **The benefit is immediate and personal.** Not "this will improve our cycle time next quarter."
   This afternoon, for you.
 - **Neither requires anyone to change how they work**, only to stop doing a chore by hand.
 - **Neither touches judgment.** Nobody has to trust the tool with a decision to get value, which
-  means the fearful population from lesson 2 can use them without conceding anything they are
+  means the fearful population from lesson 2 can use them without conceding anything they're
   worried about conceding.
 
 ⚠️ **Resist the temptation to lead with the impressive use case.** The one that demonstrates the most
@@ -251,16 +251,16 @@ teaches a reviewer to stop reading.**
 ### The more honest example, because it is first-hand
 
 The same thing happens in ordinary AI-assisted work. **Asked to confirm something often enough, you
-start rubber-stamping**, and you know you are doing it while you do it. It is a bad habit and it
+start rubber-stamping**, and you know you're doing it while you do it. It is a bad habit and it
 sets in fast.
 
-**The cause is not that the reviewer is lazy or careless.** It is the rate and the significance of
+**The cause isn't that the reviewer is lazy or careless.** It's the rate and the significance of
 what is being put in front of them:
 
 > **Ask often enough about things that are usually fine, and you get the boy who cried wolf.**
 
 Attention is finite. A reviewer facing a stream of low-stakes confirmations will triage by
-approving, because that is the rational response to a signal that is almost always green. **The
+approving, because that's the rational response to a signal that's almost always green. **The
 gate does not fail because someone stopped caring. It fails because it was designed in a way that
 made caring impractical.**
 
@@ -269,9 +269,9 @@ made caring impractical.**
 **A gate's integrity is a function of how often it fires and how much each firing matters.** That
 reframes what to measure:
 
-- **Measure the ask rate, not only the approval rate.** A gate firing fifty times a day is not a
+- **Measure the ask rate, not only the approval rate.** A gate firing fifty times a day isn't a
   control regardless of what its approval percentage says.
-- **Treat reviewer attention as the scarce resource it is**, and spend it deliberately. Every
+- **Treat reviewer attention as the scarce resource it's**, and spend it deliberately. Every
   low-value confirmation you put in front of someone is drawn from the same budget as the one that
   actually needed a human.
 - **Consolidate.** Many small confirmations are worse than one substantive decision, even when the
@@ -290,8 +290,8 @@ judgment calls; they were tier-5 mechanical steps wearing a gate. Removing them 
 oversight, **it concentrates it where it does something** - and it makes the remaining gate real
 again, because a question that only arrives when it matters gets read.
 
-⚠️ **The diagnostic, and it is uncomfortable: if the reviewer can predict their own answer before
-reading the item, that gate is already gone.** It is worth asking people directly, because they will
+⚠️ **The diagnostic, and it's uncomfortable: if the reviewer can predict their own answer before
+reading the item, that gate is already gone.** It's worth asking people directly, because they will
 usually tell you honestly, and the approval statistics will not.
 
 ### Calibrate the friction to the consequence, not uniformly
@@ -318,15 +318,15 @@ outcome, and the difference is entirely the rate.
 
 Most guardrails need an escape hatch, because sometimes the right answer genuinely is to proceed.
 But **the moment the override is used routinely, the guardrail has become decoration** - a speed
-bump with paperwork attached, which is worse than having no guardrail at all, because now there is
+bump with paperwork attached, which is worse than having no guardrail at all, because now there's
 documentation suggesting a control exists.
 
 What keeps an exception an exception:
 
-- **It is explicitly named as an exception**, not absorbed as new normal practice
-- **It is scoped narrowly** - this action, this time, not a pattern or a standing allowance
+- **It's explicitly named as an exception**, not absorbed as new normal practice
+- **It's scoped narrowly** - this action, this time, not a pattern or a standing allowance
 - **It expires**, so the next occurrence starts over rather than inheriting the last approval
-- **It is logged**, and the log is read - a run of exceptions is the signal the gate is
+- **It's logged**, and the log is read - a run of exceptions is the signal the gate is
   miscalibrated and should be redesigned rather than repeatedly waived
 
 ⚠️ **A logged exception is evidence the rule was followed carefully. A pattern of them is evidence
@@ -335,7 +335,7 @@ has to be watched rather than each instance judged on its own.
 
 ### The honest open problem
 
-**Working out which questions genuinely need a human, and asking only those, is unsolved.** It is
+**Working out which questions genuinely need a human, and asking only those, is unsolved.** It's
 one of the real open challenges in applying AI to work: not whether to keep a human in the loop,
 but **how to spend that human's attention on the decisions where it changes the outcome** rather
 than spreading it thinly across everything the system happens to be uncertain about.
@@ -344,7 +344,7 @@ Nobody should claim to have solved this. **Getting it approximately right, and r
 calibration when people start rubber-stamping, is currently the state of the art** - and noticing
 the rubber-stamping at all puts you ahead of most implementations.
 
-## 6. 🔑 The surprise is the volume, and that people do not know they are doing it
+## 6. 🔑 The volume is the surprise, and most of it is invisible to the people doing it
 
 **The single biggest surprise when you actually look is how many people are already using it.** Not
 a few early adopters. Broadly, across functions, already part of how work gets done.
@@ -359,7 +359,7 @@ asked.
 
 ### Which breaks the obvious discovery method
 
-⚠️ **Do not run discovery by asking people whether they use AI.** The answers will be sincere and
+⚠️ **Don't run discovery by asking people whether they use AI.** The answers will be sincere and
 badly wrong in both directions - people who use it constantly through embedded features will say no,
 and the question itself sounds like an audit, which suppresses the rest.
 
@@ -375,7 +375,7 @@ their work.** Reasonably. Helpfully. Trying to do their job well.
 
 **What has just happened is that company data left the company**, into a service with no agreement
 covering it, no retention control, no audit trail, and no way to get it back. There is no malice
-anywhere in that sequence, which is exactly why policy alone does not stop it.
+anywhere in that sequence, which is exactly why policy alone doesn't stop it.
 
 ### The fix is to buy the accounts, even if you would rather not
 
@@ -390,18 +390,18 @@ Justify it by what it prevents rather than by what it enables, and the business 
 about productivity gains that are hard to measure and starts being about a leak you can describe
 concretely. Paid and enterprise tiers are where the agreements, the retention settings, the
 administrative visibility and the audit trail live. **The free tier is the same product with none of
-the controls**, which is why "we have not approved AI yet" is not a safe position. It is an unmanaged
+the controls**, which is why "we haven't approved AI yet" isn't a safe position. It is an unmanaged
 one.
 
 🔗 **And notice that this is lesson 1, arriving from the finance side.** Making the sanctioned path
 the easy path and buying people proper accounts are **the same action**. The control and the
-convenience are not in tension here, they are purchased together - which is unusual enough in
+convenience aren't in tension here, they're purchased together - which is unusual enough in
 security work to be worth saying out loud.
 
 ## 7. 🔑 Provenance is the old problem, and library science already solved it once
 
 **When the web took off, nobody knew how to judge a page.** Anything could look authoritative. The
-discipline that supplied the answer was not computer science, it was **library science** - the
+discipline that supplied the answer wasn't computer science, it was **library science** - the
 existing practice of asking, of any document: **who wrote this, who published it, who paid for it,
 and when.**
 
@@ -418,11 +418,11 @@ anything:
 It is tempting to file provenance under ethics or compliance. **It is neither. It is
 maintainability.**
 
-- **You cannot correct what you cannot trace.** A document, a decision, or a body of code with no
-  provenance is not merely unattributed - it is unfixable, because nobody knows who understood it.
-- **You cannot review what you cannot attribute.** The distinction between fully generated, partly
+- **You can't correct what you can't trace.** A document, a decision, or a body of code with no
+  provenance isn't merely unattributed - it's unfixable, because nobody knows who understood it.
+- **You can't review what you can't attribute.** The distinction between fully generated, partly
   generated, and generated-then-reviewed only exists if somebody recorded which one happened.
-- **You cannot improve a process you cannot reconstruct.** This is why the delivery framework keeps
+- **You can't improve a process you can't reconstruct.** This is why the delivery framework keeps
   thread, cost and decision logs and voids artifacts rather than deleting them: **a superseded
   version usually explains why the current one looks the way it does.**
 
@@ -436,11 +436,11 @@ library-science question in its own vocabulary.
 
 **Which means the practical work is the same regardless of which regime you land under**, and you
 can do it before you know: **record what produced a thing, who reviewed it, and who is answerable
-for it.** That is cheap while the work is happening and close to impossible to reconstruct
+for it.** That's cheap while the work is happening and close to impossible to reconstruct
 afterwards.
 
 ⚠️ **The failure is silent and it compounds.** Nobody notices missing provenance until the day
-something is wrong and there is no route back - by which point the person who knew has moved on and
+something is wrong and there's no route back - by which point the person who knew has moved on and
 the record was never kept. **Provenance is not documentation overhead. It is the thing that keeps
 the work correctable.**
 
@@ -450,12 +450,12 @@ the work correctable.**
 
 If you are handed this tomorrow:
 
-1. **Assume it is already in use**, including by people who would say it is not, and start with
+1. **Assume it's already in use**, including by people who would say it's not, and start with
    discovery rather than rollout
 2. **Ask what tools people use, not whether they use AI** - the direct question under-reports by
    design
 3. **Buy the paid accounts**, and justify them as a data-loss control rather than a productivity bet
-4. **Make the sanctioned path the easiest one available**, or accept that you are governing a
+4. **Make the sanctioned path the easiest one available**, or accept that you're governing a
    fiction
 5. **Expect fear and hunger in the same room**, and read a lopsided map as information about people
    rather than about the work
@@ -466,5 +466,5 @@ If you are handed this tomorrow:
 8. **Watch your own gates for rubber-stamping**, calibrate friction to consequence, and consolidate
    many small confirmations into one decision that actually gets read
 9. **Record provenance while the work is happening** - what produced it, who reviewed it, who is
-   answerable - because it is cheap now and unreconstructable later, and it is what keeps the work
+   answerable - because it's cheap now and unreconstructable later, and it's what keeps the work
    correctable rather than merely attributed

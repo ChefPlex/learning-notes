@@ -1,8 +1,8 @@
 # learning-notes
 
-Notes on things I am learning, thinking about, and trying to understand better. Mostly centered on security engineering, distributed systems, program management craft, and the intersection of AI with all of the above.
+Notes on things I'm learning, thinking about, and trying to understand better. Mostly centered on security engineering, distributed systems, program management craft, and the intersection of AI with all of the above.
 
-This is not a polished reference library. It is a working notebook made public on the theory that thinking out loud is more useful than thinking in private - for me and occasionally for whoever stumbles across it.
+This is not a polished reference library. It's a working notebook made public on the theory that thinking out loud is more useful than thinking in private - for me and occasionally for whoever stumbles across it.
 
 Some of this will be wrong. Some of it will get updated as I learn better. That is the point.
 
@@ -73,11 +73,11 @@ that is not already said better elsewhere.
 
 ## How I Think About This Repo
 
-The job of a Technical Program Manager in security is to sit at the intersection of three things that do not naturally talk to each other: engineering teams who think in systems and code, compliance and legal teams who think in requirements and controls, and executive stakeholders who think in outcomes and risk.
+The job of a Technical Program Manager in security is to sit at the intersection of three things that don't naturally talk to each other: engineering teams who think in systems and code, compliance and legal teams who think in requirements and controls, and executive stakeholders who think in outcomes and risk.
 
 Being effective at that intersection requires more than process skills. It requires enough technical fluency to understand what the engineering team is building and why it matters, enough compliance literacy to know when a regulatory requirement changes the plan, and enough domain knowledge to make the tradeoffs visible to the people who need to make decisions.
 
-These notes are how I build and maintain that fluency. They are written for TPMs, not engineers - the goal is practical understanding, not implementation depth.
+These notes are how I build and maintain that fluency. They're written for TPMs, not engineers - the goal is practical understanding, not implementation depth.
 
 ---
 
