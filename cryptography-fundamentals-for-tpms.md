@@ -1,6 +1,6 @@
 # Cryptography Fundamentals for TPMs
 
-You do not need to be a cryptographer to run security programs. But you need enough fluency to understand what the engineering team is building, ask the right questions when something seems off, and translate the technical decisions into terms a compliance team or executive can act on.
+You don't need to be a cryptographer to run security programs. But you need enough fluency to understand what the engineering team is building, ask the right questions when something seems off, and translate the technical decisions into terms a compliance team or executive can act on.
 
 These are working notes on the cryptographic concepts that come up most in enterprise security programs. Written for TPMs - enough to be useful in the room, not a deep implementation guide.
 
@@ -12,7 +12,7 @@ Everything in cryptography comes back to two problems:
 
 **Confidentiality:** How do I make sure only the intended recipient can read this message?
 
-**Integrity and authentication:** How do I make sure the message has not been tampered with, and that it really came from who it claims to come from?
+**Integrity and authentication:** How do I make sure the message hasn't been tampered with, and that it really came from who it claims to come from?
 
 Encryption addresses confidentiality. Digital signatures and hashing address integrity and authentication. Most real-world systems need to solve both problems simultaneously - which is why modern protocols like TLS combine multiple cryptographic mechanisms.
 
@@ -20,7 +20,7 @@ Encryption addresses confidentiality. Digital signatures and hashing address int
 
 ## Symmetric Encryption
 
-**What it is:** Both the sender and the receiver use the same key to encrypt and decrypt data. The key must be kept secret by both parties.
+**What it's:** Both the sender and the receiver use the same key to encrypt and decrypt data. The key must be kept secret by both parties.
 
 **How it works conceptually:** Imagine a lockbox where both parties have identical keys. The sender locks the box, sends it, and the receiver unlocks it with their copy of the key.
 
@@ -28,15 +28,15 @@ Encryption addresses confidentiality. Digital signatures and hashing address int
 
 **Strengths:** Fast. Efficient at encrypting large amounts of data. AES hardware acceleration is built into modern processors.
 
-**Weaknesses:** The key distribution problem. How do you securely share the key with the other party in the first place? If you are already communicating securely, you do not need the encryption. If you are not, how do you share the key without it being intercepted?
+**Weaknesses:** The key distribution problem. How do you securely share the key with the other party in the first place? If you're already communicating securely, you don't need the encryption. If you aren't, how do you share the key without it being intercepted?
 
-**What this means for TPMs:** When you hear "encryption at rest," it is almost always symmetric encryption. Data on disk, in databases, and in backups is typically encrypted with AES. The key question for a TPM is not the algorithm (AES-256 is almost certainly correct) but the key management - where are the keys stored, who has access to them, and how does the rotation work?
+**What this means for TPMs:** When you hear "encryption at rest," it's almost always symmetric encryption. Data on disk, in databases, and in backups is typically encrypted with AES. The key question for a TPM isn't the algorithm (AES-256 is almost certainly correct) but the key management - where are the keys stored, who has access to them, and how does the rotation work?
 
 ---
 
 ## Asymmetric (Public Key) Encryption
 
-**What it is:** Two mathematically related keys - a public key and a private key. Data encrypted with the public key can only be decrypted with the private key. The public key can be shared freely; the private key must be kept secret.
+**What it's:** Two mathematically related keys - a public key and a private key. Data encrypted with the public key can only be decrypted with the private key. The public key can be shared freely; the private key must be kept secret.
 
 **How it works conceptually:** Imagine a special padlock where anyone can lock it (using the public key) but only you can unlock it (using the private key). You distribute the padlocks widely; people use them to send you locked messages that only you can open.
 
@@ -46,17 +46,17 @@ Encryption addresses confidentiality. Digital signatures and hashing address int
 
 **Weaknesses:** Slow. Much more computationally expensive than symmetric encryption. Not practical for encrypting large amounts of data directly.
 
-**In practice:** Asymmetric encryption is almost never used to encrypt data directly at scale. Instead, it is used to securely exchange a symmetric key (a process called key exchange or key encapsulation). Once both parties have the shared symmetric key, they switch to symmetric encryption for the actual data.
+**In practice:** Asymmetric encryption is almost never used to encrypt data directly at scale. Instead, it's used to securely exchange a symmetric key (a process called key exchange or key encapsulation). Once both parties have the shared symmetric key, they switch to symmetric encryption for the actual data.
 
 This is exactly what TLS does: asymmetric cryptography is used in the handshake to establish a shared session key, and symmetric encryption (AES) is used to encrypt the actual data transfer.
 
-**What this means for TPMs:** When you hear about "key pairs," "public/private keys," or "certificates," you are in asymmetric cryptography territory. The private key is the thing that must be protected at all costs - losing it or having it stolen compromises the security of everything encrypted or authenticated with that key pair.
+**What this means for TPMs:** When you hear about "key pairs," "public/private keys," or "certificates," you're in asymmetric cryptography territory. The private key is the thing that must be protected at all costs - losing it or having it stolen compromises the security of everything encrypted or authenticated with that key pair.
 
 ---
 
 ## Hashing
 
-**What it is:** A one-way function that converts input data of any size into a fixed-size output (the hash or digest). One-way means you cannot reverse the process - you cannot reconstruct the input from the hash.
+**What it's:** A one-way function that converts input data of any size into a fixed-size output (the hash or digest). One-way means you can't reverse the process - you can't reconstruct the input from the hash.
 
 **How it works conceptually:** A hash function is like a meat grinder. You put data in, you get a hash out. If you change even one character of the input, the hash changes completely and unpredictably. But you cannot reconstruct the original input from the hash.
 
@@ -66,7 +66,7 @@ This is exactly what TLS does: asymmetric cryptography is used in the handshake 
 - **Data integrity:** Store the hash of a file. Later, recompute the hash and compare. If they match, the file has not been tampered with.
 - **Password storage:** Never store passwords in plaintext. Store the hash. When a user logs in, hash their input and compare to the stored hash.
 - **Digital signatures:** Hash the message first, then sign the hash (signing the full message is too slow).
-- **Checksums:** Verify file downloads have not been corrupted or tampered with.
+- **Checksums:** Verify file downloads haven't been corrupted or tampered with.
 
 **What this means for TPMs:** If your organization is storing passwords, the correct answer is salted hashing with a purpose-built password hashing algorithm (bcrypt, Argon2, or PBKDF2). Plain SHA-256 is not appropriate for password storage. If an audit or security review surfaces password storage practices, this is the relevant framing.
 
@@ -74,15 +74,15 @@ This is exactly what TLS does: asymmetric cryptography is used in the handshake 
 
 ## Digital Signatures
 
-**What it is:** A cryptographic mechanism that proves a message came from a specific sender and has not been modified since it was signed. Uses asymmetric cryptography in reverse - the sender signs with their private key, and anyone with the public key can verify the signature.
+**What it's:** A cryptographic mechanism that proves a message came from a specific sender and hasn't been modified since it was signed. Uses asymmetric cryptography in reverse - the sender signs with their private key, and anyone with the public key can verify the signature.
 
 **How it works conceptually:** The sender hashes the message, then encrypts the hash with their private key. This encrypted hash is the signature. The recipient decrypts the signature with the sender's public key to recover the hash, then independently hashes the message and compares. If the hashes match, the message is authentic and unmodified.
 
 **What digital signatures prove:**
 - **Authenticity:** This message came from the holder of the private key (authentication)
-- **Integrity:** The message has not been modified since it was signed (non-repudiation)
+- **Integrity:** The message hasn't been modified since it was signed (non-repudiation)
 
-**Common uses:** Software signing (proving a software package is from its publisher), certificate signing (certificates are signed by certificate authorities), code signing (proving code has not been tampered with), document signing.
+**Common uses:** Software signing (proving a software package is from its publisher), certificate signing (certificates are signed by certificate authorities), code signing (proving code hasn't been tampered with), document signing.
 
 **What this means for TPMs:** Software supply chain security increasingly relies on digital signatures. If your organization is deploying software from vendors or open source, the question of whether packages are signed and verified is a real security control. This is especially relevant in the wake of supply chain attacks.
 
@@ -90,9 +90,9 @@ This is exactly what TLS does: asymmetric cryptography is used in the handshake 
 
 ## Certificates and PKI
 
-**What it is:** A digital certificate is a document that binds a public key to an identity (a person, an organization, a server). A certificate authority (CA) is a trusted third party that issues and signs certificates. Public Key Infrastructure (PKI) is the system of CAs, certificates, and processes that manages this.
+**What it's:** A digital certificate is a document that binds a public key to an identity (a person, an organization, a server). A certificate authority (CA) is a trusted third party that issues and signs certificates. Public Key Infrastructure (PKI) is the system of CAs, certificates, and processes that manages this.
 
-**Why certificates exist:** Asymmetric encryption solves the key distribution problem, but it creates a new problem. If I give you my public key, how do you know it is really mine and not an attacker's? Certificates solve this by having a trusted third party (the CA) vouch for the binding between the key and the identity.
+**Why certificates exist:** Asymmetric encryption solves the key distribution problem, but it creates a new problem. If I give you my public key, how do you know it's really mine and not an attacker's? Certificates solve this by having a trusted third party (the CA) vouch for the binding between the key and the identity.
 
 **Certificate components:**
 - The public key
@@ -104,7 +104,7 @@ This is exactly what TLS does: asymmetric cryptography is used in the handshake 
 
 **Certificate lifecycle:** Certificates expire. An expired certificate breaks service - clients will refuse to connect. Certificate lifecycle management is the discipline of tracking certificates, automating renewal, and alerting before expiration.
 
-**What this means for TPMs:** Certificate management is operational work that is easy to neglect. The consequences of neglect are outages - usually at the worst possible time, because certificates tend to expire at off-hours or holidays when nobody is watching. Any program that involves TLS or PKI should include an explicit plan for certificate lifecycle management.
+**What this means for TPMs:** Certificate management is operational work that's easy to neglect. The consequences of neglect are outages - usually at the worst possible time, because certificates tend to expire at off-hours or holidays when nobody is watching. Any program that involves TLS or PKI should include an explicit plan for certificate lifecycle management.
 
 ---
 
@@ -116,15 +116,15 @@ Longer keys are harder to break. For symmetric encryption, 256-bit AES is curren
 
 ### Key Rotation
 
-Cryptographic keys should be rotated periodically. If a key is compromised, rotation limits the damage. Common rotation schedules: TLS certificates annually (or more frequently), symmetric data encryption keys annually or on demand, password-derived keys on password change. The question for a TPM is whether rotation is automated and whether there is a process for emergency rotation when a key is suspected compromised.
+Cryptographic keys should be rotated periodically. If a key is compromised, rotation limits the damage. Common rotation schedules: TLS certificates annually (or more frequently), symmetric data encryption keys annually or on demand, password-derived keys on password change. The question for a TPM is whether rotation is automated and whether there's a process for emergency rotation when a key is suspected compromised.
 
 ### Key Storage
 
-Keys must be protected. A key stored in a configuration file alongside the data it protects does not add security. Hardware Security Modules (HSMs) provide the strongest protection - keys are generated and stored inside tamper-resistant hardware and cannot be exported in plaintext. For cloud environments, managed key management services (AWS KMS, GCP Cloud KMS, Azure Key Vault) provide strong software-based alternatives.
+Keys must be protected. A key stored in a configuration file alongside the data it protects doesn't add security. Hardware Security Modules (HSMs) provide the strongest protection - keys are generated and stored inside tamper-resistant hardware and can't be exported in plaintext. For cloud environments, managed key management services (AWS KMS, GCP Cloud KMS, Azure Key Vault) provide strong software-based alternatives.
 
 ### Deprecated Algorithms
 
-Some algorithms are no longer considered secure and should not be used:
+Some algorithms are no longer considered secure and shouldn't be used:
 - **Encryption:** DES, 3DES, RC4 - replaced by AES
 - **Hashing:** MD5, SHA-1 - replaced by SHA-256/SHA-3
 - **Key exchange:** Diffie-Hellman with small parameters, RSA key transport - replaced by ECDHE
@@ -134,7 +134,7 @@ When a program involves cryptography, one of the first questions to ask is wheth
 
 ### Perfect Forward Secrecy (PFS)
 
-A property of key exchange protocols where the compromise of long-term keys does not compromise past session keys. TLS 1.3 mandates PFS. TLS 1.2 supports it if configured with ephemeral key exchange (ECDHE cipher suites). If someone is recording encrypted traffic today in hopes of decrypting it later when they get the keys, PFS prevents this. Worth understanding when evaluating TLS configurations.
+A property of key exchange protocols where the compromise of long-term keys doesn't compromise past session keys. TLS 1.3 mandates PFS. TLS 1.2 supports it if configured with ephemeral key exchange (ECDHE cipher suites). If someone is recording encrypted traffic today in hopes of decrypting it later when they get the keys, PFS prevents this. Worth understanding when evaluating TLS configurations.
 
 ---
 
@@ -167,7 +167,7 @@ When your program involves cryptographic decisions, these are the questions wort
 
 - NIST SP 800-175B: Guideline for Using Cryptographic Standards in the Federal Government - the authoritative US government reference
 - NIST SP 800-57: Recommendation for Key Management - key generation, distribution, storage, and rotation
-- *Serious Cryptography* by Jean-Philippe Aumasson - the best accessible treatment of modern cryptography for practitioners who are not cryptographers
+- *Serious Cryptography* by Jean-Philippe Aumasson - the best accessible treatment of modern cryptography for practitioners who aren't cryptographers
 
 ---
 

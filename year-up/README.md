@@ -20,7 +20,7 @@ I taught professional skills sessions as a volunteer during the Fall 2015 and Fa
 
 ## The Thanksgiving Deck
 
-The Thanksgiving deck was the one that landed best. The premise is simple: planning Thanksgiving dinner is a project. It has a hard deadline, a scope that people feel strongly about, dependencies (the turkey has to thaw before it goes in the oven), resource constraints (one oven, too many dishes), and stakeholders with opinions and dietary restrictions they did not mention until the week before.
+The Thanksgiving deck was the one that landed best. The premise is simple: planning Thanksgiving dinner is a project. It has a hard deadline, a scope that people feel strongly about, dependencies (the turkey has to thaw before it goes in the oven), resource constraints (one oven, too many dishes), and stakeholders with opinions and dietary restrictions they didn't mention until the week before.
 
 Walk through the project planning process using something everyone already has a mental model for, and the concepts land faster than any framework slide ever would.
 
@@ -30,7 +30,7 @@ That deck has been rebuilt as a modern 13-slide presentation and lives in [tpm-t
 
 ## The Curriculum
 
-The ProSkills curriculum covered the professional skills that do not get taught in technical training but matter enormously in the workplace:
+The ProSkills curriculum covered the professional skills that don't get taught in technical training but matter enormously in the workplace:
 
 **Leadership and influence.** What leadership actually is vs. management. Power, presence, and how to develop both. The difference between leading and bossing.
 
@@ -46,7 +46,7 @@ The ProSkills curriculum covered the professional skills that do not get taught 
 
 ## Why This Work Mattered
 
-Year Up students were, in my experience, some of the most motivated people I have worked with. What they were often missing was not ability - it was access to the vocabulary, the networks, and the unwritten rules of professional environments that most people absorb through family connections or college culture.
+Year Up students were, in my experience, some of the most motivated people I've worked with. What they were often missing wasn't ability - it was access to the vocabulary, the networks, and the unwritten rules of professional environments that most people absorb through family connections or college culture.
 
 The goal of the curriculum was to make that tacit knowledge explicit. How do you navigate a hard conversation with a manager? What does a real internship look like and how do you make the most of it? How do you present yourself in a room where everyone else has a degree and ten more years of work experience?
 
@@ -54,4 +54,4 @@ Those are answerable questions. The curriculum was built around answering them.
 
 ---
 
-*[Year Up](https://www.yearup.org) operates in cities across the US. If you are in a position to volunteer or support their work, it is worth your time.*
+*[Year Up](https://www.yearup.org) operates in cities across the US. If you're in a position to volunteer or support their work, it's worth your time.*
