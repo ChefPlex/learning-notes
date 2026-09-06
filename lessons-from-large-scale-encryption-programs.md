@@ -72,7 +72,7 @@ This sounds mundane and it's one of the highest-return things in the whole progr
 **This type of dashboard and this type of reporting was the single biggest reporting improvement in
 the program.**
 
-## 5. 🔑 Priority is displacement, and it does not propagate on its own
+## 5. Priority is displacement, and it does not propagate on its own
 
 **This is the lesson with the most teeth, and it's the one most likely to sink a program that's
 otherwise well run.**
@@ -102,7 +102,7 @@ them in a form that changed what they work on Monday.
 committed date, and nothing is moving, because the priority exists in a leadership deck and not in
 any team's sprint. By the time that shows up in the numbers you've lost a quarter.
 
-## 6. 🔑 What we were wrong about: we thought we could do it without the workaround
+## 6. What we were wrong about: we thought we could do it without the workaround
 
 **The belief going in was that everything could be encrypted directly. No sidecar, no third-party
 solutions engineered around the problem, just the work done properly on each service.**

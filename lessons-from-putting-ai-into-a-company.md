@@ -11,7 +11,7 @@ These are patterns that generalize. The specifics of any one organization will n
 
 ---
 
-## 1. 🔑 It is already there, and the first job is finding out where
+## 1. It is already there, and the first job is finding out where
 
 **The belief going in is that you're bringing AI into the company. You are not. It is already in
 use, everywhere, in every fashion, and it got there without you.**
@@ -68,7 +68,7 @@ can't review, inventory, or set a cadence over work you can't see. Everything in
 depends on the work happening somewhere you can observe it, and the only reliable way to achieve
 that is to make the observable path the convenient one.
 
-### 🔗 The same lesson turned up in a completely different program
+### The same lesson turned up in a completely different program
 
 This is the identical finding from large-scale encryption modernization, where the approach that
 carried the program was the one that was **easier**, not the one that was most correct. The central
@@ -97,7 +97,7 @@ least as much as it is a reading of the work. **Expect that, and read the map ac
 function that classifies everything at tier 1 is telling you something about the people, not
 necessarily about the activities.
 
-### 🔑 The reframe that actually helps: none of this is as new as it feels
+### The reframe that actually helps: none of this is as new as it feels
 
 **A lot of what we now call AI tooling is the current step in a very long line of tools that have
 been doing versions of this job for years.**
@@ -131,7 +131,7 @@ either fear or hunger, neither of which is information.
 middle.** They're also, not coincidentally, how you find out where the tool is actually good, which
 is the input the map needed in the first place.
 
-## 3. 🔑 The real objection is headcount, and it is rational
+## 3. The real objection is headcount, and it is rational
 
 **When people push back on the exercise itself, it's almost never about the tool. It is about what
 the map will be used for.**
@@ -189,7 +189,7 @@ That one is answerable with time, decent onboarding, and the low-stakes trials f
 **The headcount objection isn't answerable that way, and treating them as the same problem wastes
 the answer on the easier half.**
 
-## 4. 🔑 Show them it makes their life better. Do not mandate it.
+## 4. Show them it makes their life better. Do not mandate it.
 
 **This is where most AI programs go in wrong, and you can see it everywhere.** The dominant pattern
 is a mandate: adopt the tool, use the tool, keep using the tool, and usage gets measured.
@@ -241,7 +241,7 @@ Note what these two have in common, because it's the selection criterion:
 capability is rarely the one that converts a skeptic. **The chore nobody wanted to do converts
 skeptics**, because it delivers on the actual promise - time back for the work that needed a person.
 
-## 5. 🔑 The human review gate really does rot, and the cause is the ask rate
+## 5. The human review gate really does rot, and the cause is the ask rate
 
 **This is observed, not predicted.** Automated code review is where it shows up most clearly: the
 tool posts its findings, a human is meant to review them, and over time the review becomes a
@@ -312,7 +312,7 @@ to click through it.
 Compare that with a routine action gated on every single invocation. Same mechanism, opposite
 outcome, and the difference is entirely the rate.
 
-### 🔑 The failure to design against: a bypass that becomes routine
+### The failure to design against: a bypass that becomes routine
 
 **The real danger is not the guardrail. It is the standard way around it.**
 
@@ -344,7 +344,7 @@ Nobody should claim to have solved this. **Getting it approximately right, and r
 calibration when people start rubber-stamping, is currently the state of the art** - and noticing
 the rubber-stamping at all puts you ahead of most implementations.
 
-## 6. 🔑 The volume is the surprise, and most of it is invisible to the people doing it
+## 6. The volume is the surprise, and most of it is invisible to the people doing it
 
 **The single biggest surprise when you actually look is how many people are already using it.** Not
 a few early adopters. Broadly, across functions, already part of how work gets done.
@@ -398,7 +398,7 @@ the easy path and buying people proper accounts are **the same action**. The con
 convenience aren't in tension here, they're purchased together - which is unusual enough in
 security work to be worth saying out loud.
 
-## 7. 🔑 Provenance is the old problem, and library science already solved it once
+## 7. Provenance is the old problem, and library science already solved it once
 
 **When the web took off, nobody knew how to judge a page.** Anything could look authoritative. The
 discipline that supplied the answer wasn't computer science, it was **library science** - the
