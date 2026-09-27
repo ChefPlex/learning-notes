@@ -132,7 +132,7 @@ Whatever methodology you use - Waterfall, Agile, something in between - every pr
 
 For career changers, the most useful thing to teach is that the lifecycle isn't a straight line you walk from left to right. You will revisit phases. Planning does not end when execution begins. You will find things in execution that require you to replan. That's not failure - that's how projects work in the real world.
 
-The second most useful thing: know where you're in the lifecycle at all times, and know what artifacts should exist at each phase. If you're in execution and there's no project charter, someone skipped something important. The lifecycle is a map. If you know where you're, you can figure out what is missing.
+The second most useful thing: know where you are in the lifecycle at all times, and know what artifacts should exist at each phase. If you're in execution and there's no project charter, someone skipped something important. The lifecycle is a map. If you know where you are, you can figure out what is missing.
 
 ### Communication Is the Actual Job
 
@@ -204,7 +204,7 @@ It will happen. Someone will ask what "deliverable" means, or why "scope" is a n
 
 Stop. Answer the question. Do not treat vocabulary questions as interruptions. Vocabulary questions are the most important questions a career changer can ask, because it means they're trying to integrate the concept rather than just pass the session.
 
-Keep a running translation table on a whiteboard if you've one. Plain English on one side, PM vocabulary on the other. By the end of the session, they will have built their own glossary.
+Keep a running translation table on a whiteboard if you have one. Plain English on one side, PM vocabulary on the other. By the end of the session, they will have built their own glossary.
 
 ### Do Not Over-Certify
 

@@ -51,7 +51,7 @@ you cannot do yourself:
 - **Move blockers**, which is frequently the only path when the obstacle is another organization's
   priorities
 
-⚠️ **A status report that only says how far along you're wastes the lever.** The value of executive
+⚠️ **A status report that only says how far along you are wastes the lever.** The value of executive
 attention is that it can be pointed at something. Show them what is stuck and who could unstick it.
 
 ## 4. Automate the measurement, and it changes what you can promise
@@ -86,7 +86,7 @@ to move so that yours can go in.** Naming that honestly is the only way the conv
 anywhere, and it has to happen in two places:
 
 **Upward, through the executives.** They're the only people who can authorize the displacement.
-This isn't a status conversation, it's a trade, and you've to be able to say what specifically
+This isn't a status conversation, it's a trade, and you have to be able to say what specifically
 gets deprioritized.
 
 **Then downward, all the way to every engineering team.** And this is the part people skip:
@@ -98,7 +98,7 @@ gets dropped along the way** and the engineering teams simply don't have it as a
 was agreed three levels above them. Nobody is being obstructive. The decision just never reached
 them in a form that changed what they work on Monday.
 
-⚠️ **The failure mode is invisible and it's slow.** You have executive agreement, you've a
+⚠️ **The failure mode is invisible and it's slow.** You have executive agreement, you have a
 committed date, and nothing is moving, because the priority exists in a leadership deck and not in
 any team's sprint. By the time that shows up in the numbers you've lost a quarter.
 

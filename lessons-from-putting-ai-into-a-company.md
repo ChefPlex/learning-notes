@@ -165,10 +165,10 @@ doing.
 ### The first case sets the precedent, whatever the policy says
 
 The framework says the point is leverage rather than replacement - finding the work that was never
-worth a person's attention so the person can do the work that's. **Saying that does not make anyone
+worth a person's attention so the person can do the work that is. **Saying that does not make anyone
 believe it.**
 
-**What settles it's what happens to the first team that reports a real efficiency gain.**
+**What settles it is what happens to the first team that reports a real efficiency gain.**
 
 - If that team keeps its headcount and gets more interesting work, the message travels faster than
   any policy document, and honest reporting becomes safe.
@@ -271,7 +271,7 @@ reframes what to measure:
 
 - **Measure the ask rate, not only the approval rate.** A gate firing fifty times a day isn't a
   control regardless of what its approval percentage says.
-- **Treat reviewer attention as the scarce resource it's**, and spend it deliberately. Every
+- **Treat reviewer attention as the scarce resource it is**, and spend it deliberately. Every
   low-value confirmation you put in front of someone is drawn from the same budget as the one that
   actually needed a human.
 - **Consolidate.** Many small confirmations are worse than one substantive decision, even when the
