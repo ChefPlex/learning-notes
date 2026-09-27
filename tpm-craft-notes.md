@@ -22,7 +22,11 @@ Things I've learned running programs at enterprise scale - across security, infr
 
 **The plan is a hypothesis.** It reflects your best understanding of the work at the time you made it. As you learn more, update it. A plan that doesn't change isn't being maintained, it's being protected.
 
-**T-shirt sizing is lying with confidence.** Rough estimates are better than no estimates, but everyone in the room knows they're rough. The danger is when they get treated as commitments. Be explicit about what level of precision an estimate carries.
+**T-shirt sizes are fine when they are calibrated.** A size means something once it has been checked against what the team actually finished at that size last time. Uncalibrated, it is a guess that sounds like a number. The danger is when either kind gets treated as a commitment. Be explicit about what level of precision an estimate carries.
+
+**Baseline before you promise.** Measure where the work stands today before committing to where it will be. A target set without a baseline is a guess, and the first status report against it becomes an argument about the starting point.
+
+**A cap is not a quota.** A limit on work in progress, spend or scope says how much is allowed, not how much is expected. Teams that treat a ceiling as a target fill it.
 
 **Plan for the long tail.** In most programs, getting to 80% is easier than getting from 80% to 100%. In security programs especially - legacy systems, edge cases, teams that are perpetually too busy - the last 20% often takes as long as the first 80%. Budget for it.
 
@@ -42,7 +46,7 @@ Things I've learned running programs at enterprise scale - across security, infr
 
 **Escalate early or escalate late - those are your only choices.** Early escalation is a feature. Late escalation is a failure. When something is trending wrong, say so. Bring a recommendation, not just the problem.
 
-**The 90% complete problem is real in security programs.** A remediation program that closes 90% of vulnerabilities still has open vulnerabilities. An encryption program that covers 90% of services still has unencrypted services. Name this explicitly and hold the standard. The long tail is where the real risk lives.
+**The 90% complete problem is real in security programs.** A remediation program that closes 90% of vulnerabilities still has open vulnerabilities. An encryption program that covers 90% of services still has unencrypted services. Name this explicitly and hold the standard on risk. The long tail is where the real risk lives. That does not mean every program ends at 100% - many end at diminishing returns, and that can be the right call. The difference is how you stop: when you stop short, cut the remaining scope in the open, with a named decision-maker, the residual risk written down, and the reason recorded. A program that quietly stops at 90% has not made that decision, it has avoided it.
 
 **Silence from a dependency owner isn't a green status.** Follow up. If you have not heard back, that is the information. Something is either fine and they forgot to tell you, or it's not fine and they're hoping you won't notice. Either way, you need to know.
 
@@ -87,6 +91,18 @@ Things I've learned running programs at enterprise scale - across security, infr
 **Numbers beat adjectives.** "Encryption coverage increased significantly" tells nobody anything actionable. "Encryption coverage increased from 67% to 78% this month, on track for 90% by end of quarter" is useful.
 
 **Close the loop.** When a decision gets made, communicate it. When a risk gets resolved, note it. When a milestone lands, acknowledge it. Stakeholders who feel like things just happen to them without explanation will eventually stop trusting the reporting.
+
+---
+
+## On AI Programs
+
+**Report reuse, not usage.** Logins and prompt counts go up under a mandate whether or not the work changed. The number that means something is how often people come back to the same workflow because it saved them time.
+
+**Agreement between models is not verification.** Two agents that share a model, a prompt shape and a method will make the same mistake together. Check AI output with a different method, or a person sampling it by hand.
+
+**Every agent needs a named human owner, and a named human holds go/no-go on anything irreversible or outbound.** The agent can prepare the deletion, the email or the release. A person releases it.
+
+**Every guardrail needs a stated blind spot.** Write down what actions it matches, what it cannot see, and how you would know it failed. The one nobody wrote down is the one that gets routed around.
 
 ---
 

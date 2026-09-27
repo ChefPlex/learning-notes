@@ -106,6 +106,8 @@ This is exactly what TLS does: asymmetric cryptography is used in the handshake 
 
 **What this means for TPMs:** Certificate management is operational work that's easy to neglect. The consequences of neglect are outages - usually at the worst possible time, because certificates tend to expire at off-hours or holidays when nobody is watching. Any program that involves TLS or PKI should include an explicit plan for certificate lifecycle management.
 
+**Public certificate lifetimes are shrinking, so renewal has to be automated.** The CA/Browser Forum, which sets the rules public certificate authorities follow, passed ballot SC-081 in 2025. The maximum validity of a publicly trusted TLS certificate drops from 398 days to 200 days from 15 March 2026, to 100 days from 15 March 2027, and to 47 days from 15 March 2029 (source: the CA/Browser Forum TLS Baseline Requirements, section 6.3.2). At 47 days a certificate renews roughly eight times a year. A calendar reminder and a manual ticket do not survive that cadence, so the program question becomes whether issuance and renewal are automated (for example with the ACME protocol) and whether every certificate is in an inventory that alerts before expiry. Internal certificates from a private CA are not bound by these rules, but they usually follow the same direction.
+
 ---
 
 ## Key Concepts for Security Program TPMs
@@ -116,7 +118,7 @@ Longer keys are harder to break. For symmetric encryption, 256-bit AES is curren
 
 ### Key Rotation
 
-Cryptographic keys should be rotated periodically. If a key is compromised, rotation limits the damage. Common rotation schedules: TLS certificates annually (or more frequently), symmetric data encryption keys annually or on demand, password-derived keys on password change. The question for a TPM is whether rotation is automated and whether there's a process for emergency rotation when a key is suspected compromised.
+Cryptographic keys should be rotated periodically. If a key is compromised, rotation limits the damage. Common rotation schedules: public TLS certificates at least every 200 days today and every 47 days by 2029 (see Certificates and PKI above), symmetric data encryption keys annually or on demand, password-derived keys on password change. The question for a TPM is whether rotation is automated and whether there's a process for emergency rotation when a key is suspected compromised.
 
 ### Key Storage
 
@@ -135,6 +137,17 @@ When a program involves cryptography, one of the first questions to ask is wheth
 ### Perfect Forward Secrecy (PFS)
 
 A property of key exchange protocols where the compromise of long-term keys doesn't compromise past session keys. TLS 1.3 mandates PFS. TLS 1.2 supports it if configured with ephemeral key exchange (ECDHE cipher suites). If someone is recording encrypted traffic today in hopes of decrypting it later when they get the keys, PFS prevents this. Worth understanding when evaluating TLS configurations.
+
+### Post-Quantum Cryptography
+
+A large enough quantum computer would break the public-key algorithms that TLS and PKI rely on today (RSA and elliptic-curve). Symmetric encryption such as AES-256 is much less exposed. Nobody can say when such a machine will exist, but the risk is already live for one reason: **traffic recorded today can be decrypted later.** Forward secrecy does not help here, because the attack is on the key exchange itself.
+
+NIST approved the first three post-quantum standards on 13 August 2024:
+- **FIPS 203 (ML-KEM)** - key establishment, derived from CRYSTALS-Kyber
+- **FIPS 204 (ML-DSA)** - digital signatures, derived from CRYSTALS-Dilithium
+- **FIPS 205 (SLH-DSA)** - hash-based digital signatures, derived from SPHINCS+
+
+**What this means for TPMs:** a post-quantum migration is an inventory program before it is a cryptography program - the same shape as a TLS modernization. The first questions are where public-key cryptography is used, which data must stay confidential for many years, and which vendors and libraries have a post-quantum roadmap. The ability to swap an algorithm without rebuilding the system (crypto agility) is the property to ask for.
 
 ---
 
@@ -171,4 +184,4 @@ When your program involves cryptographic decisions, these are the questions wort
 
 ---
 
-*Working notes. Last updated May 2026.*
+*Working notes. Last updated September 2026.*

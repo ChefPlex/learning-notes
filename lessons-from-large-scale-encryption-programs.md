@@ -168,11 +168,12 @@ almost everything that mattered.
 If you are handed one of these tomorrow:
 
 1. **Buy analysis time** and spend it on the denominator, not on the services you already know about
-2. **Find the owners early** - that's the schedule, not the service count
-3. **Expect the work to concentrate** on whoever absorbs the ownerless services, and negotiate
-   relief for them specifically
-4. **Get the priority displaced formally, then walk it down** to every team yourself
-5. **Automate the count** so status is observed rather than reported
-6. **Assume your first approach is partly wrong**, and leave room to go back to the architects
-7. **Celebrate the teams publicly** - it's the only renewable currency you've
-8. **Decide in advance what "done enough" means**, so you can end it honestly at diminishing returns
+2. **Plan to be blocked**, and put the loop back to the architects and engineering teams in the
+   schedule from day one
+3. **Give executives the bird's-eye view and point it at what is stuck**, so they can celebrate
+   the teams publicly and move the blockers you cannot
+4. **Automate the count** so status is observed rather than reported
+5. **Get the priority displaced formally, then walk it down** to every team yourself
+6. **Assume your first approach is partly wrong**, and leave room for the workaround that actually
+   finishes
+7. **Decide in advance what "done enough" means**, so you can end it honestly at diminishing returns

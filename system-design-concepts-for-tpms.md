@@ -146,7 +146,16 @@ This section is intentionally brief - the field is moving fast and anything more
 
 **AI in security operations:** Machine learning models are increasingly used for anomaly detection, threat hunting, and log analysis. These tools can surface signals that would otherwise be lost in the noise of large-scale platforms.
 
-**What a TPM needs to know:** AI security isn't yet a mature discipline with established compliance frameworks and standard controls. Programs in this space require closer collaboration with security architects and researchers, and more tolerance for ambiguity in what "done" looks like.
+**AI agents:** An agent is a model that can call tools - read files, send mail, run commands, change records. The security question moves from "what can the model say" to "what can the model do." Two controls come first. **Tool permissions:** each agent gets only the tools and scopes its job needs, and anything irreversible or outbound needs a named human to release it. **An agent inventory:** every agent listed with its tools, its permissions and a named human owner, the same way you would inventory service accounts.
+
+**What a TPM needs to know:** The controls are still maturing, but the frameworks now exist, and a program should pick the ones it will be measured against at the start:
+
+- **NIST AI Risk Management Framework** (AI RMF 1.0, January 2023) and its **Generative AI Profile, NIST AI 600-1** (July 2024) - voluntary, and the common vocabulary for AI risk in the US
+- **ISO/IEC 42001:2023** - a certifiable AI management system standard, the AI counterpart to ISO/IEC 27001
+- **The EU AI Act** (Regulation (EU) 2024/1689) - in force since August 2024, with obligations phasing in by risk category
+- **OWASP Top 10 for LLM Applications** and **OWASP Top 10 for Agentic Applications** (December 2025) - the working lists of attack classes, from prompt injection to excessive agency
+
+Programs in this space still need close collaboration with security architects, and more tolerance for ambiguity in what "done" looks like, because the controls behind those frameworks are younger than the frameworks themselves.
 
 ---
 
@@ -162,4 +171,4 @@ These are worth the time if you're going deeper in any of these areas:
 
 ---
 
-*These are working notes, updated as I learn and as the field evolves. Last updated May 2026.*
+*These are working notes, updated as I learn and as the field evolves. Last updated September 2026.*

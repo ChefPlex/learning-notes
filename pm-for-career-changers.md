@@ -242,5 +242,5 @@ The Thanksgiving deck referenced throughout this guide has been rebuilt as a mod
 
 ---
 
-*Eric White - Director TPM, Public Glass Board President, Year Up guest instructor 2015-2016*
+*Eric White - technical program management leader; former Public Glass Board President; Year Up guest instructor 2015-2016*
 *[github.com/ChefPlex](https://github.com/ChefPlex)*
