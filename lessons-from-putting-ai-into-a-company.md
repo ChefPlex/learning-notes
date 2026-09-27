@@ -444,6 +444,43 @@ something is wrong and there's no route back - by which point the person who kne
 the record was never kept. **Provenance is not documentation overhead. It is the thing that keeps
 the work correctable.**
 
+## 8. Verifying AI output: agreement is not evidence
+
+**The tempting check is to ask a second model, or run several agents, and trust what they agree
+on.** When those agents share a model, a prompt shape and a method of finding sources, their
+agreement is one sample with a louder voice. They inherit the same blind spots, and identical wrong
+answers read as corroboration. **The diversity that counts is diversity of failure mode**:
+different methods, different evidence, a different model family, or a person checking a sample by
+hand.
+
+What held up in practice:
+
+- **A control must name what reads its output.** A check that writes a result nobody reads is not a
+  control. For every guardrail, name the reader and name the symptom you would see if it stopped
+  working.
+- **Measure a gate on known-bad items, not only on how often it asks.** Lesson 5 is about the ask
+  rate. The other two numbers are the false-positive rate and the catch rate against a set of items
+  you already know are bad. A gate that has never caught anything is a gate nobody has verified.
+- **A named human holds go/no-go on anything irreversible or outbound.** Deleting data, sending
+  mail, publishing, paying, changing access. The agent can prepare the action. A named person
+  releases it.
+- **Baseline before you promise a target.** Measure how the current process performs, including
+  the human one, before committing to an accuracy or time-saved figure. Without a baseline the
+  target is a guess, and the first report against it is an argument.
+
+### A template worth keeping for every agent workflow
+
+The hard part is knowing what a guardrail cannot see. Write it down per guardrail:
+
+| Guardrail | Actions it matches | Actions it cannot see | How we would know it failed |
+|:---|:---|:---|:---|
+| *e.g. a command filter on destructive shell commands* | *Shell commands that delete or overwrite* | *The same action taken through another tool or integration* | *A weekly diff of deleted files against approved deletions* |
+| | | | |
+
+⚠️ **The third column is the one that gets left blank, and it is the one that matters.** A
+guardrail that looks complete on its own terms can be routed around by any action it was never
+wired to see.
+
 ---
 
 ## The short version
@@ -468,3 +505,6 @@ If you are handed this tomorrow:
 9. **Record provenance while the work is happening** - what produced it, who reviewed it, who is
    answerable - because it's cheap now and unreconstructable later, and it's what keeps the work
    correctable rather than merely attributed
+10. **Do not count agreement as verification** - agents that share a model, a prompt shape and a
+    method are one sample. Name what reads each control's output, measure gates against known-bad
+    items, keep a named human on irreversible and outbound actions, and baseline before you promise
