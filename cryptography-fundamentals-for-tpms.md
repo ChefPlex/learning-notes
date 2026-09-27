@@ -20,7 +20,7 @@ Encryption addresses confidentiality. Digital signatures and hashing address int
 
 ## Symmetric Encryption
 
-**What it's:** Both the sender and the receiver use the same key to encrypt and decrypt data. The key must be kept secret by both parties.
+**What it is:** Both the sender and the receiver use the same key to encrypt and decrypt data. The key must be kept secret by both parties.
 
 **How it works conceptually:** Imagine a lockbox where both parties have identical keys. The sender locks the box, sends it, and the receiver unlocks it with their copy of the key.
 
@@ -36,7 +36,7 @@ Encryption addresses confidentiality. Digital signatures and hashing address int
 
 ## Asymmetric (Public Key) Encryption
 
-**What it's:** Two mathematically related keys - a public key and a private key. Data encrypted with the public key can only be decrypted with the private key. The public key can be shared freely; the private key must be kept secret.
+**What it is:** Two mathematically related keys - a public key and a private key. Data encrypted with the public key can only be decrypted with the private key. The public key can be shared freely; the private key must be kept secret.
 
 **How it works conceptually:** Imagine a special padlock where anyone can lock it (using the public key) but only you can unlock it (using the private key). You distribute the padlocks widely; people use them to send you locked messages that only you can open.
 
@@ -56,7 +56,7 @@ This is exactly what TLS does: asymmetric cryptography is used in the handshake 
 
 ## Hashing
 
-**What it's:** A one-way function that converts input data of any size into a fixed-size output (the hash or digest). One-way means you can't reverse the process - you can't reconstruct the input from the hash.
+**What it is:** A one-way function that converts input data of any size into a fixed-size output (the hash or digest). One-way means you can't reverse the process - you can't reconstruct the input from the hash.
 
 **How it works conceptually:** A hash function is like a meat grinder. You put data in, you get a hash out. If you change even one character of the input, the hash changes completely and unpredictably. But you cannot reconstruct the original input from the hash.
 
@@ -74,7 +74,7 @@ This is exactly what TLS does: asymmetric cryptography is used in the handshake 
 
 ## Digital Signatures
 
-**What it's:** A cryptographic mechanism that proves a message came from a specific sender and hasn't been modified since it was signed. Uses asymmetric cryptography in reverse - the sender signs with their private key, and anyone with the public key can verify the signature.
+**What it is:** A cryptographic mechanism that proves a message came from a specific sender and hasn't been modified since it was signed. Uses asymmetric cryptography in reverse - the sender signs with their private key, and anyone with the public key can verify the signature.
 
 **How it works conceptually:** The sender hashes the message, then encrypts the hash with their private key. This encrypted hash is the signature. The recipient decrypts the signature with the sender's public key to recover the hash, then independently hashes the message and compares. If the hashes match, the message is authentic and unmodified.
 
@@ -90,7 +90,7 @@ This is exactly what TLS does: asymmetric cryptography is used in the handshake 
 
 ## Certificates and PKI
 
-**What it's:** A digital certificate is a document that binds a public key to an identity (a person, an organization, a server). A certificate authority (CA) is a trusted third party that issues and signs certificates. Public Key Infrastructure (PKI) is the system of CAs, certificates, and processes that manages this.
+**What it is:** A digital certificate is a document that binds a public key to an identity (a person, an organization, a server). A certificate authority (CA) is a trusted third party that issues and signs certificates. Public Key Infrastructure (PKI) is the system of CAs, certificates, and processes that manages this.
 
 **Why certificates exist:** Asymmetric encryption solves the key distribution problem, but it creates a new problem. If I give you my public key, how do you know it's really mine and not an attacker's? Certificates solve this by having a trusted third party (the CA) vouch for the binding between the key and the identity.
 
