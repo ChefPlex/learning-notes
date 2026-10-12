@@ -42,9 +42,9 @@ The single most effective teaching tool. Works for every audience, every time. U
 
 Thanksgiving dinner is a project. It has a scope (how many people, what dishes, formal or casual), a plan (the menu, the shopping list, who is bringing what), a timeline with a genuine critical path (you can't make gravy until the turkey is done - that's a dependency, and it determines your finish time), risks (the Paleo cousin, the undercooked bird, the person who says they're bringing a dish and then doesn't), stakeholders with competing opinions (everyone has a position on stuffing), a team that needs to collaborate and delegate, and a retrospective built into the cleanup conversation.
 
-Every PM concept maps onto it cleanly. Walk through all seven steps with Thanksgiving first, then introduce the vocabulary. By the time you say "critical path," they already know what it means. They just learned it with a turkey.
+Every PM concept maps onto it cleanly. Walk through all seven steps with Thanksgiving first (scope, plan, timeline, risks, stakeholders, team, retrospective, as the companion deck numbers them), then introduce the vocabulary. By the time you say "critical path," they already know what it means. They just learned it with a turkey.
 
-A companion presentation and worksheet are in the `tpm-templates` repo: [PM: A Thanksgiving Story](https://github.com/ChefPlex/tpm-templates).
+A companion presentation is in the `tpm-templates` repo: [PM: A Thanksgiving Story](https://github.com/ChefPlex/tpm-templates/blob/main/PM_Thanksgiving_Story.pptx).
 
 ### The Contractor Analogy for the PM Role
 
@@ -146,7 +146,7 @@ For career changers, this is often the easiest concept to grasp and the hardest 
 
 Agile gets introduced to career changers as a contrast to Waterfall, and then sometimes as a solution to all the problems with Waterfall. Neither framing is accurate.
 
-The Agile Manifesto is worth reading in full, in the original, once. It's four value statements that describe a set of priorities - not a methodology, not a process, and explicitly not a reason to skip documentation or planning. The opening line is "we're uncovering better ways of developing software by doing it and helping others do it." That's a statement of ongoing learning, not a permission slip for chaos.
+The Agile Manifesto is worth reading in full, in the original, once. It's four value statements that describe a set of priorities - not a methodology, not a process, and explicitly not a reason to skip documentation or planning. The opening line is "We are uncovering better ways of developing software by doing it and helping others do it" ([agilemanifesto.org](https://agilemanifesto.org/)). That's a statement of ongoing learning, not a permission slip for chaos.
 
 The practical lesson for career changers: Agile means iterating on real working output rather than planning everything up front and hoping the plan survives contact with reality. It means shorter feedback loops and faster course correction. It does not mean no plan. It does not mean no documentation. It does not mean requirements do not matter.
 
@@ -236,9 +236,9 @@ Activities that build PM-relevant skills:
 
 ## Source Material
 
-This guide was distilled from four decks taught at Year Up San Francisco through Taos Mountain, 2015-2016. The original presentations are archived in [`year-up/`](year-up/) alongside this file. They're in their original .ppt format and reflect the specific program context - some content will need adjustment for different audiences.
+This guide was distilled from five decks taught at Year Up San Francisco through Taos Mountain, 2015-2016. The original presentations are archived in [`year-up/`](year-up/) alongside this file. They're in their original .ppt format and reflect the specific program context - some content will need adjustment for different audiences.
 
-The Thanksgiving deck referenced throughout this guide has been rebuilt as a modern presentation and lives in [`tpm-templates`](https://github.com/ChefPlex/tpm-templates) as a standalone teaching resource.
+The Thanksgiving deck referenced throughout this guide has been rebuilt as a modern presentation and lives in [`tpm-templates`](https://github.com/ChefPlex/tpm-templates/blob/main/PM_Thanksgiving_Story.pptx) as a standalone teaching resource.
 
 ---
 

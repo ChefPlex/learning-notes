@@ -8,7 +8,7 @@
 
 ## Why This Course
 
-I've spent most of my career on the program side of security - building the encryption programs, the PKI infrastructure, the compliance frameworks. The incident side was always adjacent work: something happened, the IR and SOC teams ran the response, the TPM showed up to track remediation actions and report status to leadership.
+I've spent most of my career on the program side of security - running the encryption, PKI and compliance programs. The incident side was always adjacent work: something happened, the IR and SOC teams ran the response, the TPM showed up to track remediation actions and report status to leadership.
 
 LDR553 made me rethink that division. The skills the course is actually teaching aren't technical incident response skills - those belong to the SOC and IR engineers. The skills are about leading the humans in the room when the facts are incomplete, the executives are impatient, and the clock is running. That is TPM territory.
 
@@ -76,7 +76,7 @@ Resetting a password without killing sessions is not closure. Rotating an API ke
 
 The third-party incident management content was the part of the course I found most practically useful for TPM work. The default posture the course teaches: treat a supplier security notice as a major incident until evidence proves your access, data, service, and customer exposure aren't affected.
 
-Supplier legal notices are almost never enough. A vague statement that there was "an incident" and the supplier has "taken steps" to address it's not information. The course gives a structured RFI - request for information - with specific questions that elicit real answers: what was the timeline, what of ours was accessible, which of our credentials or access paths existed, what has been revoked.
+Supplier legal notices are almost never enough. A vague statement that there was "an incident" and the supplier has "taken steps" to address it is not information. The course gives a structured RFI - request for information - with specific questions that elicit real answers: what was the timeline, what of ours was accessible, which of our credentials or access paths existed, what has been revoked.
 
 The confidence scoring framework for supplier answers is practical: high confidence means specific logs, timestamps, scope, access lists, and containment evidence. Low confidence means generic reassurance, no named owner, and shifting answers. Low confidence means maintain worst-case posture.
 

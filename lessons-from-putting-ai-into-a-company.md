@@ -94,7 +94,8 @@ You will be working with two populations at once, and they distort the map in op
 **Neither group is being unreasonable, and neither can be argued out of its position with a
 framework.** The map you get back is a reading of your organization's relationship with the tool at
 least as much as it is a reading of the work. **Expect that, and read the map accordingly** - a
-function that classifies everything at tier 1 is telling you something about the people, not
+function that classifies everything at tier 1 (the [execution tiers](https://github.com/ChefPlex/ai-automations/blob/main/frameworks/ai-execution-tiers.md)
+run from tier 1, human-only, to tier 5, AI-only) is telling you something about the people, not
 necessarily about the activities.
 
 ### The reframe that actually helps: none of this is as new as it feels
@@ -390,7 +391,7 @@ Justify it by what it prevents rather than by what it enables, and the business 
 about productivity gains that are hard to measure and starts being about a leak you can describe
 concretely. Paid and enterprise tiers are where the agreements, the retention settings, the
 administrative visibility and the audit trail live. **The free tier is the same product with none of
-the controls**, which is why "we haven't approved AI yet" isn't a safe position. It is an unmanaged
+the organizational controls**, which is why "we haven't approved AI yet" isn't a safe position. It is an unmanaged
 one.
 
 🔗 **And notice that this is lesson 1, arriving from the finance side.** Making the sanctioned path
