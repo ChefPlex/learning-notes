@@ -26,7 +26,7 @@ TLS 1.0 and 1.1 are deprecated - they have known vulnerabilities and are no long
 
 A TLS modernization program typically involves: inventorying all services and endpoints, identifying which are still running 1.0 or 1.1, remediating each service, and verifying through scanning that the old versions are gone. The long tail - legacy services, third-party integrations, embedded clients - is always harder than it looks.
 
-**What a TPM needs to know:** TLS version is a binary compliance question in most regulatory frameworks. Either you meet the minimum version requirement or you do not. There is no partial credit. That means tracking coverage to 100%, not to "substantially complete."
+**What a TPM needs to know:** TLS version is a binary compliance question in most regulatory frameworks. Either you meet the minimum version requirement or you do not. There is no partial credit. That means tracking coverage to 100% of the in-scope population, not to "substantially complete." Anything left out needs a documented, approved exception or compensating control. That is how the [encryption lessons](lessons-from-large-scale-encryption-programs.md) note ends a program honestly at diminishing returns.
 
 ### PKI and Certificate Lifecycle
 
@@ -88,7 +88,7 @@ US law requiring public companies to maintain accurate financial records and ade
 
 Industry standard for organizations that handle credit card data. Covers encryption, access control, network segmentation, logging, and vulnerability management.
 
-**TPM relevance:** Any program touching cardholder data or the systems that process, store, or transmit it requires PCI compliance. PCI has specific requirements around encryption (TLS 1.2 minimum, specific cipher suites), access control, and audit logging.
+**TPM relevance:** Any program touching cardholder data or the systems that process, store, or transmit it requires PCI compliance. PCI has specific requirements around encryption, access control, and audit logging. On encryption it requires "strong cryptography" rather than naming a TLS version: SSL and early TLS (at minimum 1.0 and 1.1) do not qualify, and even TLS 1.2 passes only with strong cipher suites.
 
 ### HIPAA (Health Insurance Portability and Accountability Act)
 
@@ -102,9 +102,9 @@ US government framework for cloud services used by federal agencies. Rigorous an
 
 **TPM relevance:** FedRAMP programs have strict timelines, extensive documentation requirements, and external assessors (3PAOs). Start compliance work early - FedRAMP authorization typically takes 12-18 months and can't be rushed at the end.
 
-### SOC 2 (Service Organization Control 2)
+### SOC 2 (System and Organization Controls 2)
 
-An auditing standard for service organizations - cloud providers, SaaS companies - covering security, availability, processing integrity, confidentiality, and privacy. SOC 2 Type I is a point-in-time assessment; SOC 2 Type II covers a period of time (usually 6-12 months).
+An attestation report on an independent examination of controls at a service organization - cloud providers, SaaS companies - covering security, availability, processing integrity, confidentiality, and privacy. SOC 2 Type I is a point-in-time assessment; SOC 2 Type II covers a period of time (usually 6-12 months).
 
 **TPM relevance:** SOC 2 Type II requires demonstrating controls over a period of time, not just at the audit date. That means programs that build controls need to be operational and documented well before the audit period begins.
 
