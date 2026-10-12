@@ -131,4 +131,4 @@ If you're running a RAG program now, the source inventory template is the place 
 
 ---
 
-*Written October 2026. A shorter version was posted on LinkedIn.*
+*Posted on LinkedIn, October 12, 2026, as a shorter version.*
