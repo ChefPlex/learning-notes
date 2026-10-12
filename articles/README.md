@@ -4,6 +4,7 @@ The long versions of what I publish on LinkedIn, kept here so they can be found,
 
 | Article | Written | What it covers |
 |:---|:---|:---|
+| [The Program Management Evolution: AI as an Embedded Co-Pilot](ai-as-an-embedded-program-co-pilot.md) | August 29, 2026 | Where AI takes time out of program initiation, status and risk review, and the governance that has to come with it |
 | [Are We Using AI to Accelerate Program Management, or Our Mistakes?](accelerating-program-management-or-our-mistakes.md) | August 31, 2026 | The "hallucinating progress" trap, AI cost governance, and why the TPM's job moves to designing and governing AI workflows |
 | [Match AI Tool Trust to Data Risk](match-ai-tool-trust-to-data-risk.md) | September 14, 2026 | A two-axis matrix, data sensitivity against tool trust, that turns "can we use this AI tool?" into a lookup |
 | [Healthcare AI Governance: From Policy to Proof](healthcare-ai-governance-from-policy-to-proof.md) | September 21, 2026 | Why regulators now want proof of AI oversight rather than policy, and why that calls for deciding how much oversight each task needs, using a 5-tier execution model |
