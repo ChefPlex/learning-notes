@@ -186,7 +186,7 @@ For career changers who are new to professional environments, this is also a con
 
 ### The Introduction Round
 
-Start every session with three questions: name, technology experience, what they want to do, and what they think is blocking them.
+Start every session with four questions: name, technology experience, what they want to do, and what they think is blocking them.
 
 Do not skip this. It is not just icebreaker protocol. It tells you how technical the room is, what aspirations look like, and where the anxiety lives. Someone who says "I want to be a PM but I don't have any tech background" needs a different pitch than someone who says "I've been in IT support for three years and want to move into program management." The content is the same; the framing is different.
 
@@ -228,7 +228,7 @@ Reading worth assigning or recommending:
 
 Activities that build PM-relevant skills:
 
-- Toastmasters - public speaking and facilitation are core PM skills, and Toastmasters is free and widely available
+- Toastmasters - public speaking and facilitation are core PM skills, and Toastmasters is low-cost and widely available (dues of $72 every six months plus a one-time $25 new-member fee as of October 2026; visiting a club as a guest is free)
 - Any role that requires coordinating multiple people toward a deadline - organizing a community event, running a volunteer crew, coaching a team
 - Tabletop role-playing games (this was on the Year Up list and it's not a joke - Dungeons and Dragons and similar games build systems thinking, collaborative problem-solving, and comfort with ambiguity)
 

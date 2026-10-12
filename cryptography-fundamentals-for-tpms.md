@@ -80,7 +80,8 @@ This is exactly what TLS does: asymmetric cryptography is used in the handshake 
 
 **What digital signatures prove:**
 - **Authenticity:** This message came from the holder of the private key (authentication)
-- **Integrity:** The message hasn't been modified since it was signed (non-repudiation)
+- **Integrity:** The message hasn't been modified since it was signed
+- **Non-repudiation:** The signer cannot plausibly deny having signed, because only they hold the private key
 
 **Common uses:** Software signing (proving a software package is from its publisher), certificate signing (certificates are signed by certificate authorities), code signing (proving code hasn't been tampered with), document signing.
 
@@ -146,6 +147,8 @@ NIST approved the first three post-quantum standards on 13 August 2024:
 - **FIPS 203 (ML-KEM)** - key establishment, derived from CRYSTALS-Kyber
 - **FIPS 204 (ML-DSA)** - digital signatures, derived from CRYSTALS-Dilithium
 - **FIPS 205 (SLH-DSA)** - hash-based digital signatures, derived from SPHINCS+
+
+The dates a program can plan against come from NIST IR 8547, still an initial public draft (November 2024) as of October 2026. It proposes that quantum-vulnerable public-key algorithms such as RSA and elliptic-curve be deprecated after 2030 at the 112-bit security level (RSA-2048, for example) and disallowed entirely after 2035.
 
 **What this means for TPMs:** a post-quantum migration is an inventory program before it is a cryptography program - the same shape as a TLS modernization. The first questions are where public-key cryptography is used, which data must stay confidential for many years, and which vendors and libraries have a post-quantum roadmap. The ability to swap an algorithm without rebuilding the system (crypto agility) is the property to ask for.
 

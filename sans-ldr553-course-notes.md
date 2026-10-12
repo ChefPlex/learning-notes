@@ -127,7 +127,7 @@ The capstone deliverable was a full operational playbook synthesizing the week's
 - Recovery, closeout, RCA, and exercise program
 - Appendix templates (intake form, 3x5 brief, action tracker, decision log, evidence register, comms tracker, third-party RFI, credential reset tracker, counter-compromise tracker, RCA action register)
 
-The playbook lives in `security-program-playbooks` as a sanitized reference document.
+The playbook lives in `tpm-templates` as a sanitized reference document: [Cyber Incident Management Playbook](https://github.com/ChefPlex/tpm-templates/blob/main/incident-management/cyber-incident-playbook.md).
 
 ---
 
