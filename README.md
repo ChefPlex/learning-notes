@@ -32,6 +32,12 @@ Some of this will be wrong. Some of it will get updated as I learn better. That 
 |------|---------------|
 | [SANS LDR553: Cyber Incident Management](sans-ldr553-course-notes.md) | Notes from completing SANS LDR553, taught by Steve Armstrong-Godwin. The course is not about technical IR - it is about leading the humans in the room when facts are incomplete and executives are impatient. Covers the 3 Whats executive briefing format, uncertainty discipline, credential blast-radius thinking, supplier incident management, and the GenAI component. Includes a summary of the capstone playbook produced during the course; the playbook itself is the [Cyber Incident Management Playbook](https://github.com/ChefPlex/tpm-templates/blob/main/incident-management/cyber-incident-playbook.md) in tpm-templates. |
 
+### Articles
+
+| Folder | What It Contains |
+|--------|----------------|
+| [articles/](articles/) | The long versions of what I post on LinkedIn, kept here so they can be found and read in full. First: [RAG for TPMs: Think of It as a Lens](articles/rag-for-tpms.md). |
+
 ### Source Materials
 
 | Folder | What It Contains |
