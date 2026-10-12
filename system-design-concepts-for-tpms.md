@@ -40,7 +40,7 @@ Certificates have expiration dates. An expired certificate breaks service - most
 
 An HSM is a physical device that generates, stores, and manages cryptographic keys. Keys stored in an HSM can't be exported in plaintext - the HSM performs cryptographic operations with the key without ever exposing it.
 
-Enterprise HSMs (Thales, Entrust, formerly Gemalto) are the standard in regulated environments. They're expensive, operationally complex, and compliance-required in many contexts (PCI HSM requirements, for example).
+Enterprise HSMs (Thales, formerly Gemalto/SafeNet, and Entrust nShield) are the standard in regulated environments. They're expensive, operationally complex, and compliance-required in many contexts (PCI HSM requirements, for example).
 
 **What a TPM needs to know:** HSM procurement, provisioning, and integration have long lead times. If your program depends on HSM infrastructure, start that work earlier than you think you need to.
 
@@ -100,7 +100,7 @@ US law governing the privacy and security of health information. The Security Ru
 
 US government framework for cloud services used by federal agencies. Rigorous and prescriptive - FedRAMP authorization is a significant program in itself.
 
-**TPM relevance:** FedRAMP programs have strict timelines, extensive documentation requirements, and external assessors (3PAOs). Start compliance work early - FedRAMP authorization typically takes 12-18 months and can't be rushed at the end.
+**TPM relevance:** FedRAMP programs have strict timelines, extensive documentation requirements, and external assessors (3PAOs). Start compliance work early - FedRAMP authorization is a long process and can't be rushed at the end. Check whether the newer [FedRAMP 20x](https://www.fedramp.gov/20x/) path applies, because its process differs from Rev 5.
 
 ### SOC 2 (System and Organization Controls 2)
 
@@ -114,11 +114,11 @@ An attestation report on an independent examination of controls at a service org
 
 ### MTTR (Mean Time to Remediate)
 
-The average time between a vulnerability being identified and being fixed. One of the primary metrics for vulnerability management programs.
+The average time between a vulnerability being identified and being fixed. A useful trend for vulnerability management programs, but a secondary one.
 
-Different severity levels have different MTTR targets: critical vulnerabilities get days, high get weeks, medium get months. The targets are often defined by compliance frameworks or internal security policy.
+Different severity levels have different remediation SLAs: critical vulnerabilities get days, high get weeks, medium get months. The SLAs are often defined by compliance frameworks or internal security policy.
 
-**What a TPM needs to know:** MTTR is the metric that security and audit teams will ask about first. Make sure your vulnerability remediation program defines MTTR targets by severity at the start and tracks against them consistently.
+**What a TPM needs to know:** Security and audit teams will ask first about SLA attainment: the share of findings closed within their SLA, by severity. MTTR is the secondary trend, because an average hides the one critical finding that sat open for months. Make sure your vulnerability remediation program defines SLAs by severity at the start and tracks attainment against them consistently.
 
 ### CVE and CVSS
 
@@ -164,7 +164,7 @@ Programs in this space still need close collaboration with security architects, 
 These are worth the time if you're going deeper in any of these areas:
 
 - *Designing Data-Intensive Applications* by Martin Kleppmann - distributed systems fundamentals
-- *The Web Application Hacker's Handbook* - attack surface understanding
+- *The Web Application Hacker's Handbook* (2nd edition, 2011) - attack surface understanding. For current material, its author's team runs the free [PortSwigger Web Security Academy](https://portswigger.net/web-security), which is kept up to date
 - *Zero Trust Networks* by Evan Gilman and Doug Barth - zero trust architecture in practice
 - NIST SP 800-53 - the reference catalog for security controls used in US federal compliance
 - OWASP Top Ten - the standard reference for web application security risks

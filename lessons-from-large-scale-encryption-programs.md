@@ -123,7 +123,7 @@ Three things worth taking from this:
   **Up-front analysis reduces the number of wrong turns. It does not eliminate them**, and a program
   planned as though it will is a program with no room to correct.
 - **"Do it properly on every service" is a purity argument, and purity loses to finished.** The
-  workaround that gets 300 services encrypted beats the correct approach that gets 40 done and
+  workaround that gets most of 300 services encrypted beats the correct approach that gets 40 done and
   stalls. Recognizing that early is worth a quarter.
 
 ⚠️ **The tell that you're in this situation: the plan is fine and the progress isn't.** When

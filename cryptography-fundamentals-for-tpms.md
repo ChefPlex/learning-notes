@@ -74,9 +74,9 @@ This is exactly what TLS does: asymmetric cryptography is used in the handshake 
 
 ## Digital Signatures
 
-**What it is:** A cryptographic mechanism that proves a message came from a specific sender and hasn't been modified since it was signed. Uses asymmetric cryptography in reverse - the sender signs with their private key, and anyone with the public key can verify the signature.
+**What it is:** A cryptographic mechanism that proves a message came from a specific sender and hasn't been modified since it was signed. Uses asymmetric cryptography - the sender signs with their private key, and anyone with the public key can verify the signature.
 
-**How it works conceptually:** The sender hashes the message, then encrypts the hash with their private key. This encrypted hash is the signature. The recipient decrypts the signature with the sender's public key to recover the hash, then independently hashes the message and compares. If the hashes match, the message is authentic and unmodified.
+**How it works conceptually:** The sender hashes the message, then computes a signature over the hash using their private key. The recipient runs the message, the signature and the sender's public key through the matching verification algorithm, which checks that the signature fits this message and this key. If it does, the message is authentic and unmodified. "Encrypting the hash with the private key" is a picture of textbook RSA only; ECDSA, EdDSA, ML-DSA and SLH-DSA do not encrypt or decrypt anything.
 
 **What digital signatures prove:**
 - **Authenticity:** This message came from the holder of the private key (authentication)
@@ -147,6 +147,8 @@ NIST approved the first three post-quantum standards on 13 August 2024:
 - **FIPS 203 (ML-KEM)** - key establishment, derived from CRYSTALS-Kyber
 - **FIPS 204 (ML-DSA)** - digital signatures, derived from CRYSTALS-Dilithium
 - **FIPS 205 (SLH-DSA)** - hash-based digital signatures, derived from SPHINCS+
+
+In March 2025 NIST also selected HQC as a backup key-establishment algorithm to ML-KEM ([NIST, 11 March 2025](https://www.nist.gov/news-events/news/2025/03/nist-selects-hqc-fifth-algorithm-post-quantum-encryption)).
 
 The dates a program can plan against come from NIST IR 8547, still an initial public draft (November 2024) as of October 2026. It proposes that quantum-vulnerable public-key algorithms such as RSA and elliptic-curve be deprecated after 2030 at the 112-bit security level (RSA-2048, for example) and disallowed entirely after 2035.
 
