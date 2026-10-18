@@ -8,6 +8,23 @@ Some of this will be wrong. Some of it will get updated as I learn better. That 
 
 ---
 
+## Start Here
+
+Pick the line that matches why you came. Each one is a single document to read first.
+
+| If you are… | Read first | Then |
+|:---|:---|:---|
+| New to program management, or coming from another field | [Program Management for Career Changers](pm-for-career-changers.md) | [TPM Craft](tpm-craft-notes.md) |
+| A program manager who wants the craft, not the certification | [TPM Craft: Notes on Running Programs at Scale](tpm-craft-notes.md) | [Baseline Before You Promise](articles/baseline-before-you-promise.md) |
+| A TPM about to work on a security or encryption program | [Cryptography Fundamentals for TPMs](cryptography-fundamentals-for-tpms.md) | [Lessons from Large-Scale Encryption Programs](lessons-from-large-scale-encryption-programs.md) |
+| Leading AI adoption or governance | [Lessons from Putting AI Into a Company](lessons-from-putting-ai-into-a-company.md) | [Healthcare AI Governance: From Policy to Proof](articles/healthcare-ai-governance-from-policy-to-proof.md) |
+| About to run a RAG or retrieval program | [RAG for TPMs: Think of It as a Lens](articles/rag-for-tpms.md) | [Enterprise RAG Program Playbook](https://github.com/ChefPlex/tpm-templates/blob/main/enterprise-rag-program/enterprise-rag-program-playbook.md) in tpm-templates |
+| Preparing to lead an incident | [SANS LDR553: Cyber Incident Management](sans-ldr553-course-notes.md) | [Cyber Incident Management Playbook](https://github.com/ChefPlex/tpm-templates/blob/main/incident-management/cyber-incident-playbook.md) in tpm-templates |
+
+These are notes, not templates. When you need something to fill in, the [portfolio guide](https://github.com/ChefPlex/tpm-templates/blob/main/PORTFOLIO-GUIDE.md) points to the working documents.
+
+---
+
 ## What Is Here
 
 ### Technical Concepts
@@ -101,3 +118,7 @@ If something here is wrong or outdated, open an issue. Getting it right is more 
 
 Copyright (c) 2026 Eric White. Licensed under [CC BY 4.0](LICENSE): use it, adapt it, put it to
 work in your own program. Credit is the only condition.
+
+---
+
+**Part of the ChefPlex TPM portfolio** · Status: Active · [I need to… find the right document across all the repositories](https://github.com/ChefPlex/tpm-templates/blob/main/PORTFOLIO-GUIDE.md) · [All repositories](https://github.com/ChefPlex)
