@@ -14,12 +14,12 @@ Pick the line that matches why you came. Each one is a single document to read f
 
 | If you are… | Read first | Then |
 |:---|:---|:---|
-| New to program management, or coming from another field | [Program Management for Career Changers](pm-for-career-changers.md) | [TPM Craft](tpm-craft-notes.md) |
+| New to program management, or coming from another field | [Program Management for Career Changers](https://github.com/ChefPlex/teaching-notes/blob/main/project-management/pm-for-career-changers.md) in teaching-notes | [TPM Craft](tpm-craft-notes.md) |
 | A program manager who wants the craft, not the certification | [TPM Craft: Notes on Running Programs at Scale](tpm-craft-notes.md) | [Baseline Before You Promise](articles/baseline-before-you-promise.md) |
 | A TPM about to work on a security or encryption program | [Cryptography Fundamentals for TPMs](cryptography-fundamentals-for-tpms.md) | [Lessons from Large-Scale Encryption Programs](lessons-from-large-scale-encryption-programs.md) |
 | Leading AI adoption or governance | [Lessons from Putting AI Into a Company](lessons-from-putting-ai-into-a-company.md) | [Healthcare AI Governance: From Policy to Proof](articles/healthcare-ai-governance-from-policy-to-proof.md) |
-| About to run a RAG or retrieval program | [RAG for TPMs: Think of It as a Lens](articles/rag-for-tpms.md) | [Enterprise RAG Program Playbook](https://github.com/ChefPlex/tpm-templates/blob/main/enterprise-rag-program/enterprise-rag-program-playbook.md) in tpm-templates |
-| Preparing to lead an incident | [SANS LDR553: Cyber Incident Management](sans-ldr553-course-notes.md) | [Cyber Incident Management Playbook](https://github.com/ChefPlex/tpm-templates/blob/main/incident-management/cyber-incident-playbook.md) in tpm-templates |
+| About to run a RAG or retrieval program | [RAG for TPMs: Think of It as a Lens](articles/rag-for-tpms.md) | [Enterprise RAG Program Playbook](https://github.com/ChefPlex/ai-automations/blob/main/ai-programs/enterprise-rag-program/enterprise-rag-program-playbook.md) in ai-automations |
+| Preparing to lead an incident | [SANS LDR553: Cyber Incident Management](sans-ldr553-course-notes.md) | [Cyber Incident Management Playbook](https://github.com/ChefPlex/security-program-playbooks/blob/main/cyber-incident-playbook.md) in security-program-playbooks |
 
 These are notes, not templates. When you need something to fill in, the [portfolio guide](https://github.com/ChefPlex/tpm-templates/blob/main/PORTFOLIO-GUIDE.md) points to the working documents.
 
@@ -41,14 +41,13 @@ These are notes, not templates. When you need something to fill in, the [portfol
 | Note | What It Covers |
 |------|---------------|
 | [TPM Craft: Notes on Running Programs at Scale](tpm-craft-notes.md) | Things learned running security, infrastructure, and compliance programs at enterprise scale that are not in any certification curriculum. On starting programs, planning, execution, stakeholders, teams, reporting, and finishing. Updated as the work teaches new things. |
-| [Program Management for Career Changers](pm-for-career-changers.md) | A practical PM introduction for people coming in from other fields. The vocabulary, the lifecycle, the skills that actually matter, and how to get your first role - without the jargon and theory that make most PM training materials difficult to use. Developed from teaching professional skills to Year Up students. |
 | [Building Program Management Where There Was None](building-program-management-where-there-was-none.md) | Setting up program management inside a cryptography group that had none, at a large SaaS company. The order I put things in (stakeholders, then level-of-effort estimation, then delivery expectations, reporting last), and why reading the PMI process groups as a dependency chain pointed to it, what it cost in the first few sprints, and how the group reached on-time delivery within six months. Companion piece: [Rescuing Work That Is Off Track](https://github.com/ChefPlex/tpm-templates/blob/main/rescuing-work-that-is-off-track.md) in tpm-templates. |
 
 ### Course Notes
 
 | Note | What It Covers |
 |------|---------------|
-| [SANS LDR553: Cyber Incident Management](sans-ldr553-course-notes.md) | Notes from completing SANS LDR553, taught by Steve Armstrong-Godwin. The course is not about technical IR - it is about leading the humans in the room when facts are incomplete and executives are impatient. Covers the 3 Whats executive briefing format, uncertainty discipline, credential blast-radius thinking, supplier incident management, and the GenAI component. Includes a summary of the capstone playbook produced during the course; the playbook itself is the [Cyber Incident Management Playbook](https://github.com/ChefPlex/tpm-templates/blob/main/incident-management/cyber-incident-playbook.md) in tpm-templates. |
+| [SANS LDR553: Cyber Incident Management](sans-ldr553-course-notes.md) | Notes from completing SANS LDR553, taught by Steve Armstrong-Godwin. The course is not about technical IR - it is about leading the humans in the room when facts are incomplete and executives are impatient. Covers the 3 Whats executive briefing format, uncertainty discipline, credential blast-radius thinking, supplier incident management, and the GenAI component. Includes a summary of the capstone playbook produced during the course; the playbook itself is the [Cyber Incident Management Playbook](https://github.com/ChefPlex/security-program-playbooks/blob/main/cyber-incident-playbook.md) in security-program-playbooks. |
 
 ### Articles
 
@@ -56,11 +55,9 @@ These are notes, not templates. When you need something to fill in, the [portfol
 |--------|----------------|
 | [articles/](articles/) | The long versions of what I post on LinkedIn, kept here so they can be found and read in full. First: [RAG for TPMs: Think of It as a Lens](articles/rag-for-tpms.md). |
 
-### Source Materials
+### Teaching Material
 
-| Folder | What It Contains |
-|--------|----------------|
-| [year-up/](year-up/) | Teaching materials from four years as a teacher and lecturer with Year Up (2014 to 2018), a workforce development program for young adults entering tech careers. Five slide decks from the ProSkills and Project Prep curriculum (Fall 2015 and Fall 2016 cohorts). The Thanksgiving deck in this folder is the original source for the rebuilt [PM: A Thanksgiving Story](https://github.com/ChefPlex/tpm-templates/blob/main/PM_Thanksgiving_Story.pptx) in tpm-templates. See the [year-up README](year-up/README.md) for full context. |
+The Year Up decks, the career-changer course and the Thanksgiving deck are things I taught, so they are in [teaching-notes](https://github.com/ChefPlex/teaching-notes/tree/main/project-management).
 
 ---
 
