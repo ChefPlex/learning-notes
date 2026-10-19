@@ -27,14 +27,14 @@ That told me where to start in a group with no program management, which is at t
 
 So the order I put things in followed the chain, roughly:
 
-| Order | What I put in | Where it sits in the PMI chain |
-|:---|:---|:---|
-| 1 | Separate first meetings with the engineers, their management, and the teams that needed work from them | Identify Stakeholders, and the stakeholder register it produces |
-| 2 | The same questions to everyone: what are you doing, what are you asking for, what do you expect, what frustrates you | Collect Requirements |
-| 3 | Level-of-effort estimation, built from work the team had already finished | Estimate Activity Durations |
-| 4 | A per-person cap on what the team would commit to each sprint | Develop Schedule, which is where expectations get set |
-| 5 | A rule for emergency work: when something urgent is pushed in, the requester helps pick what gets pushed out | Perform Integrated Change Control |
-| 6 | A dashboard showing what had been done and how fast, then the same view going forward | Manage and Control Communications |
+| Order | What I put in |
+|:---|:---|
+| 1 | Separate first meetings with the engineers, their management, and the teams that needed work from them (PMI: Identify Stakeholders) |
+| 2 | The same questions to everyone: what are you doing, what are you asking for, what do you expect, what frustrates you (PMI: Collect Requirements) |
+| 3 | Level-of-effort estimation, built from work the team had already finished (PMI: Estimate Activity Durations) |
+| 4 | A per-person cap on what the team would commit to each sprint, which is where expectations get set (PMI: Develop Schedule) |
+| 5 | A rule for emergency work: when something urgent is pushed in, the requester helps pick what gets pushed out (PMI: Perform Integrated Change Control) |
+| 6 | A dashboard showing what had been done and how fast, then the same view going forward (PMI: Manage Communications) |
 
 Large parts of the PMI list had nothing to attach to. A team that never ends has no closing phase, for one. I don't think that's a flaw in the framework. It was written for projects, and the job here was to pick the part of it that a standing team could actually use.
 
