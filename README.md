@@ -1,8 +1,8 @@
 # learning-notes
 
-Notes on things I'm learning, thinking about, and trying to understand better. Mostly centered on security engineering, distributed systems, program management craft, and the intersection of AI with all of the above.
+Notes on things I'm learning, thinking about, and trying to understand better. Mostly centered on security engineering, distributed systems, program management craft, and how AI changes all of the above.
 
-This is not a polished reference library. It's a working notebook made public on the theory that thinking out loud is more useful than thinking in private - for me and occasionally for whoever stumbles across it.
+It is a working notebook, made public on the theory that thinking out loud is more useful than thinking in private - for me and occasionally for whoever stumbles across it.
 
 Some of this will be wrong. Some of it will get updated as I learn better. That is the point.
 
@@ -59,7 +59,7 @@ These are notes, not templates. When you need something to fill in, the [portfol
 
 | Folder | What It Contains |
 |--------|----------------|
-| [year-up/](year-up/) | Teaching materials from my time as a volunteer instructor with Year Up, a workforce development program for young adults entering tech careers. Five slide decks from the ProSkills and Project Prep curriculum (Fall 2015 and Fall 2016 cohorts). The Thanksgiving deck in this folder is the original source for the rebuilt [PM: A Thanksgiving Story](https://github.com/ChefPlex/tpm-templates/blob/main/PM_Thanksgiving_Story.pptx) in tpm-templates. See the [year-up README](year-up/README.md) for full context. |
+| [year-up/](year-up/) | Teaching materials from four years as a teacher and lecturer with Year Up (2014 to 2018), a workforce development program for young adults entering tech careers. Five slide decks from the ProSkills and Project Prep curriculum (Fall 2015 and Fall 2016 cohorts). The Thanksgiving deck in this folder is the original source for the rebuilt [PM: A Thanksgiving Story](https://github.com/ChefPlex/tpm-templates/blob/main/PM_Thanksgiving_Story.pptx) in tpm-templates. See the [year-up README](year-up/README.md) for full context. |
 
 ---
 
@@ -96,7 +96,7 @@ that is not already said better elsewhere.
 
 ## How I Think About This Repo
 
-The job of a Technical Program Manager in security is to sit at the intersection of three things that don't naturally talk to each other: engineering teams who think in systems and code, compliance and legal teams who think in requirements and controls, and executive stakeholders who think in outcomes and risk.
+The job of a Technical Program Manager in security is to connect three groups that don't naturally talk to each other: engineering teams who think in systems and code, compliance and legal teams who think in requirements and controls, and executive stakeholders who think in outcomes and risk.
 
 Being effective at that intersection requires more than process skills. It requires enough technical fluency to understand what the engineering team is building and why it matters, enough compliance literacy to know when a regulatory requirement changes the plan, and enough domain knowledge to make the tradeoffs visible to the people who need to make decisions.
 

@@ -1,8 +1,8 @@
 # year-up
 
-Teaching materials from my time as a volunteer instructor with [Year Up](https://www.yearup.org), a national nonprofit that provides intensive technical and professional training to young adults from underserved communities. When I taught there, Year Up's model was a one-year program: about six months of technical and professional skills training, then a six-month corporate internship, with the goal of closing the opportunity divide in tech and business careers.
+Teaching materials from my time as a teacher and lecturer with [Year Up](https://www.yearup.org), a national nonprofit that provides intensive technical and professional training to young adults from underserved communities. When I taught there, Year Up's model was a one-year program: about six months of technical and professional skills training, then a six-month corporate internship, with the goal of closing the opportunity divide in tech and business careers.
 
-I taught professional skills sessions as a volunteer during the Fall 2015 and Fall 2016 cohorts in the San Francisco Bay Area.
+I taught at Year Up in the San Francisco Bay Area from October 2014 to December 2018, and designed and taught a project management and LAMP+ elective from scratch. The decks here are from the Fall 2015 and Fall 2016 cohorts.
 
 ---
 

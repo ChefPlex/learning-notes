@@ -2,7 +2,7 @@
 
 A teaching guide for explaining project management to people who have never worked in a formal PM environment.
 
-Developed from teaching ProSkills and Project Prep at Year Up (2015-2016), a workforce development program that places young adults without four-year degrees into tech internships at companies like Salesforce and VMware. The students were smart, motivated, and had zero tolerance for corporate abstraction. That wasn't a problem - it was a constraint that made the teaching better.
+Developed from teaching ProSkills and Project Prep at Year Up, where I taught from 2014 to 2018, a workforce development program that places young adults without four-year degrees into tech internships at companies like Salesforce and VMware. The students were smart, motivated, and had zero tolerance for corporate abstraction. That wasn't a problem - it was a constraint that made the teaching better.
 
 This guide is for anyone trying to explain PM to an audience that doesn't yet have the vocabulary: bootcamp graduates, career switchers, people coming from trades, food service, retail, the military, or any context where "deliverable" isn't a word anyone uses without apologizing for it first.
 
@@ -242,5 +242,5 @@ The Thanksgiving deck referenced throughout this guide has been rebuilt as a mod
 
 ---
 
-*Eric White - technical program management leader; former Public Glass Board President; Year Up guest instructor 2015-2016*
+*Eric White - technical program management leader; former Public Glass Board President; Year Up teacher and lecturer 2014-2018*
 *[github.com/ChefPlex](https://github.com/ChefPlex)*
