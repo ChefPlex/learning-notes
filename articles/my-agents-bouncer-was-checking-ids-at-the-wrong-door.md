@@ -18,4 +18,4 @@ Before you sign off on an agent rollout, ask the team for one table: each guardr
 
 ---
 
-*Posted on LinkedIn, October 2, 2026. The table it asks for is section 4 of the [Agentic AI Program](https://github.com/ChefPlex/tpm-templates/tree/main/agentic-ai-program) template. Related code: [agent-guardrails](https://github.com/ChefPlex/agent-guardrails).*
+*Posted on LinkedIn, October 2, 2026. The table it asks for is section 4 of the [Agentic AI Program](https://github.com/ChefPlex/ai-automations/tree/main/ai-programs/agentic-ai-program) template. Related code: [agent-guardrails](https://github.com/ChefPlex/agent-guardrails).*

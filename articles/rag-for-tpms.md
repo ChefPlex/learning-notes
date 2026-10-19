@@ -119,7 +119,7 @@ A great model looking through the wrong lens will still give you a polished answ
 
 I've been building two GitHub playbooks that turn these ideas into a working program.
 
-**[Enterprise RAG Program - TPM Templates](https://github.com/ChefPlex/tpm-templates/tree/main/enterprise-rag-program)**
+**[Enterprise RAG Program - AI Automations](https://github.com/ChefPlex/ai-automations/tree/main/ai-programs/enterprise-rag-program)**
 
 Program charter, architecture, source inventory, evaluation planning, governance, and delivery guidance.
 
