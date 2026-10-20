@@ -1,48 +1,22 @@
-# System Design Concepts for Security TPMs
+# Security Concepts for TPMs
 
 You don't need to be a systems architect to run platform security programs. But you need to understand the systems well enough to ask the right questions, recognize when an engineering decision has security implications, and translate technical tradeoffs into language a stakeholder can act on.
 
-These are working notes on the distributed systems and security concepts that come up most often in large-scale platform security programs. Written from a TPM perspective - not a deep dive into implementation, but enough to be useful in the room.
+These are working notes on the security, distributed systems and compliance concepts that come up most often in large-scale platform security programs. Written from a TPM perspective - not a deep dive into implementation, but enough to be useful in the room.
 
 ---
 
 ## Encryption
 
-### Encryption in Transit vs. Encryption at Rest
+The definitions (symmetric and asymmetric encryption, TLS, certificates and PKI, HSMs and key management) are in [Cryptography Fundamentals for TPMs](cryptography-fundamentals-for-tpms.md). What follows is what each one means for running the program.
 
-**In transit** means data is encrypted while moving between systems - service to service, client to server, across network boundaries. The standard mechanism is TLS (Transport Layer Security).
+**In transit and at rest.** Encryption programs typically need to address both surfaces separately. Encryption in transit programs often involve TLS modernization across services. Encryption at rest programs often involve key management infrastructure and storage layer changes. They're different engineering problems with different teams, different tooling, and different timelines.
 
-**At rest** means data is encrypted while stored - on disk, in a database, in object storage. When someone says "encrypt the database," they usually mean at rest.
+**TLS.** TLS version is a binary compliance question in most regulatory frameworks. Either you meet the minimum version requirement or you do not. There is no partial credit. That means tracking coverage to 100% of the in-scope population, not to "substantially complete." Anything left out needs a documented, approved exception or compensating control. That is how the [encryption lessons](lessons-from-large-scale-encryption-programs.md) note ends a program honestly at diminishing returns.
 
-Both matter. A system that encrypts at rest but not in transit protects data from someone who steals a disk but not from someone who intercepts network traffic. A system that encrypts in transit but not at rest protects data on the wire but not if the storage layer is compromised.
+**Certificates.** Certificate expiration events are predictable outages. A well-run PKI program has automated renewal, an inventory of all certificates and their expiration dates, and alerting that surfaces upcoming expirations before they become emergencies. If you're running a program that touches certificate infrastructure, ask how renewals are being automated and what the alert threshold is for upcoming expirations.
 
-**What this means for a program:** Encryption programs typically need to address both surfaces separately. Encryption in transit programs often involve TLS modernization across services. Encryption at rest programs often involve key management infrastructure and storage layer changes. They're different engineering problems with different teams, different tooling, and different timelines.
-
-### TLS
-
-TLS (Transport Layer Security) is the protocol that encrypts data in transit. You will hear version numbers: TLS 1.0, 1.1, 1.2, 1.3.
-
-TLS 1.0 and 1.1 are deprecated - they have known vulnerabilities and are no longer considered secure. Most compliance frameworks require 1.2 or higher; 1.3 is current and preferred.
-
-A TLS modernization program typically involves: inventorying all services and endpoints, identifying which are still running 1.0 or 1.1, remediating each service, and verifying through scanning that the old versions are gone. The long tail - legacy services, third-party integrations, embedded clients - is always harder than it looks.
-
-**What a TPM needs to know:** TLS version is a binary compliance question in most regulatory frameworks. Either you meet the minimum version requirement or you do not. There is no partial credit. That means tracking coverage to 100% of the in-scope population, not to "substantially complete." Anything left out needs a documented, approved exception or compensating control. That is how the [encryption lessons](lessons-from-large-scale-encryption-programs.md) note ends a program honestly at diminishing returns.
-
-### PKI and Certificate Lifecycle
-
-PKI (Public Key Infrastructure) is the system that issues, manages, and revokes digital certificates. Certificates are what makes TLS work - a certificate tells a client that the server it's talking to is who it claims to be.
-
-Certificates have expiration dates. An expired certificate breaks service - most clients will refuse to connect to a server with an expired cert. Certificate lifecycle management is the discipline of making sure certificates get renewed before they expire.
-
-**What a TPM needs to know:** Certificate expiration events are predictable outages. A well-run PKI program has automated renewal, an inventory of all certificates and their expiration dates, and alerting that surfaces upcoming expirations before they become emergencies. If you're running a program that touches certificate infrastructure, ask how renewals are being automated and what the alert threshold is for upcoming expirations.
-
-### HSM (Hardware Security Module)
-
-An HSM is a physical device that generates, stores, and manages cryptographic keys. Keys stored in an HSM can't be exported in plaintext - the HSM performs cryptographic operations with the key without ever exposing it.
-
-Enterprise HSMs (Thales, formerly Gemalto/SafeNet, and Entrust nShield) are the standard in regulated environments. They're expensive, operationally complex, and compliance-required in many contexts (PCI HSM requirements, for example).
-
-**What a TPM needs to know:** HSM procurement, provisioning, and integration have long lead times. If your program depends on HSM infrastructure, start that work earlier than you think you need to.
+**HSMs.** HSM procurement, provisioning, and integration have long lead times. If your program depends on HSM infrastructure, start that work earlier than you think you need to.
 
 ---
 
