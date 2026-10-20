@@ -20,7 +20,7 @@ The gap between a technical team that understands what is happening and an execu
 
 LDR553 runs five days through a fictional company called Submarine Studios, which experiences a progressively more complex cyber incident throughout the week. Each day adds new complications: the attacker escalates, a third party is involved, regulators come into the picture, and eventually you're dealing with questions about AI systems, ransomware, and regulated manufacturing. Nine case studies total, building on each other.
 
-The lab structure maps roughly to this:
+The lab structure maps roughly to this. Lab titles are from SANS's published [LDR553 course outline](https://www.sans.org/cyber-security-courses/cyber-incident-management); the Focus column is my own summary.
 
 | Lab | Focus |
 |-----|-------|
