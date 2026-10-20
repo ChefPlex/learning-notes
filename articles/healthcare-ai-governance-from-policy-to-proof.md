@@ -19,3 +19,5 @@ Where would your highest-risk AI use case land on a scale like this?
 ---
 
 *Posted on LinkedIn, September 21, 2026. The tier model is [AI Execution Tiers](https://github.com/ChefPlex/ai-automations/blob/main/frameworks/ai-execution-tiers.md) in ai-automations.*
+
+*Part of the [ChefPlex TPM portfolio](https://github.com/ChefPlex/tpm-templates/blob/main/PORTFOLIO-GUIDE.md). Maintained by [Eric White](https://www.linkedin.com/in/edwhite). Licensed under [CC BY 4.0](../LICENSE).*

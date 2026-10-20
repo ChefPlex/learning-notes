@@ -36,3 +36,5 @@ Further reading from the original post:
 ---
 
 *Posted on LinkedIn, August 31, 2026. Revised here on October 19, 2026: each figure now names its primary source, and figures without one were removed, along with the infographic that repeated them.*
+
+*Part of the [ChefPlex TPM portfolio](https://github.com/ChefPlex/tpm-templates/blob/main/PORTFOLIO-GUIDE.md). Maintained by [Eric White](https://www.linkedin.com/in/edwhite). Licensed under [CC BY 4.0](../LICENSE).*

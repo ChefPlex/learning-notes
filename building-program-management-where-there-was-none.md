@@ -75,3 +75,5 @@ And this was a standing team doing a steady stream of similar work with the same
 ---
 
 *Working notes. Updated as the work teaches me new things.*
+
+*Part of the [ChefPlex TPM portfolio](https://github.com/ChefPlex/tpm-templates/blob/main/PORTFOLIO-GUIDE.md). Maintained by [Eric White](https://www.linkedin.com/in/edwhite). Licensed under [CC BY 4.0](LICENSE).*

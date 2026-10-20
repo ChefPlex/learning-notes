@@ -14,7 +14,7 @@ Pick the line that matches why you came. Each one is a single document to read f
 
 | If you are… | Read first | Then |
 |:---|:---|:---|
-| New to program management, or coming from another field | [Program Management for Career Changers](https://github.com/ChefPlex/teaching-notes/blob/main/project-management/pm-for-career-changers.md) in teaching-notes | [TPM Craft](tpm-craft-notes.md) |
+| New to program management, or coming from another field | [Introducing PM Concepts to Career Changers](https://github.com/ChefPlex/teaching-notes/blob/main/project-management/pm-for-career-changers.md) in teaching-notes | [TPM Craft](tpm-craft-notes.md) |
 | A program manager who wants the craft, not the certification | [TPM Craft: Notes on Running Programs at Scale](tpm-craft-notes.md) | [Baseline Before You Promise](articles/baseline-before-you-promise.md) |
 | A TPM about to work on a security or encryption program | [Cryptography Fundamentals for TPMs](cryptography-fundamentals-for-tpms.md) | [Lessons from Large-Scale Encryption Programs](lessons-from-large-scale-encryption-programs.md) |
 | Leading AI adoption or governance | [Lessons from Putting AI Into a Company](lessons-from-putting-ai-into-a-company.md) | [Healthcare AI Governance: From Policy to Proof](articles/healthcare-ai-governance-from-policy-to-proof.md) |

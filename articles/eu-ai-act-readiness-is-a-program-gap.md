@@ -21,3 +21,5 @@ https://lnkd.in/gS7gBGSY
 ---
 
 *Posted on LinkedIn, August 8, 2026.*
+
+*Part of the [ChefPlex TPM portfolio](https://github.com/ChefPlex/tpm-templates/blob/main/PORTFOLIO-GUIDE.md). Maintained by [Eric White](https://www.linkedin.com/in/edwhite). Licensed under [CC BY 4.0](../LICENSE).*

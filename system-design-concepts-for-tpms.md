@@ -146,3 +146,5 @@ These are worth the time if you're going deeper in any of these areas:
 ---
 
 *These are working notes, updated as I learn and as the field evolves. Last updated September 2026.*
+
+*Part of the [ChefPlex TPM portfolio](https://github.com/ChefPlex/tpm-templates/blob/main/PORTFOLIO-GUIDE.md). Maintained by [Eric White](https://www.linkedin.com/in/edwhite). Licensed under [CC BY 4.0](LICENSE).*

@@ -190,3 +190,5 @@ When your program involves cryptographic decisions, these are the questions wort
 ---
 
 *Working notes. Last updated September 2026.*
+
+*Part of the [ChefPlex TPM portfolio](https://github.com/ChefPlex/tpm-templates/blob/main/PORTFOLIO-GUIDE.md). Maintained by [Eric White](https://www.linkedin.com/in/edwhite). Licensed under [CC BY 4.0](LICENSE).*

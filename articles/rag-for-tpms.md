@@ -132,3 +132,5 @@ If you're running a RAG program now, the source inventory template is the place 
 ---
 
 *Posted on LinkedIn, October 12, 2026, as a shorter version.*
+
+*Part of the [ChefPlex TPM portfolio](https://github.com/ChefPlex/tpm-templates/blob/main/PORTFOLIO-GUIDE.md). Maintained by [Eric White](https://www.linkedin.com/in/edwhite). Licensed under [CC BY 4.0](../LICENSE).*

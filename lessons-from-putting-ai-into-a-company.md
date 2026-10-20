@@ -178,7 +178,7 @@ believe it.**
 
 🔗 **And note where that lands: a map built on under-reported gains is fiction.** Which is the same
 failure as lesson 1's registry going stale when people route around a slow path. **Two different
-self-protective behaviours, one identical outcome - the data you're governing from stops being
+self-protective behaviors, one identical outcome - the data you're governing from stops being
 true.** Watch for both, because neither announces itself.
 
 ### The other objection is real too, and cheaper to fix
@@ -509,3 +509,7 @@ If you are handed this tomorrow:
 10. **Do not count agreement as verification** - agents that share a model, a prompt shape and a
     method are one sample. Name what reads each control's output, measure gates against known-bad
     items, keep a named human on irreversible and outbound actions, and baseline before you promise
+
+---
+
+*Part of the [ChefPlex TPM portfolio](https://github.com/ChefPlex/tpm-templates/blob/main/PORTFOLIO-GUIDE.md). Maintained by [Eric White](https://www.linkedin.com/in/edwhite). Licensed under [CC BY 4.0](LICENSE).*
