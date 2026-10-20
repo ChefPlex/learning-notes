@@ -148,3 +148,5 @@ If you work in an organization that runs tabletop exercises, the exercise progra
 ---
 
 *Notes completed May 2026. These reflect my own synthesis and takeaways - not official SANS course material.*
+
+*Part of the [ChefPlex TPM portfolio](https://github.com/ChefPlex/tpm-templates/blob/main/PORTFOLIO-GUIDE.md). Maintained by [Eric White](https://www.linkedin.com/in/edwhite). Licensed under [CC BY 4.0](LICENSE).*

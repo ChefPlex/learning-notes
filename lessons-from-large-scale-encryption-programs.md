@@ -7,7 +7,7 @@ in security-program-playbooks. **That is how to run one. This is what running on
 
 Notes from running encryption modernization at scale: coverage from roughly 10 percent to 80 percent
 plus, across 300+ distributed services, 100+ engineering teams and 10+ cloud environments, plus a TLS
-upgrade program that ran twice and key lifecycle work on hardware security modules.
+upgrade program that ran twice, first from TLS 1.0 to 1.1/1.2, then from 1.1 to 1.2/1.3, and key lifecycle work on hardware security modules.
 
 These are the patterns that generalize. The specifics of any one estate will not.
 
@@ -177,3 +177,7 @@ If you are handed one of these tomorrow:
 6. **Assume your first approach is partly wrong**, and leave room for the workaround that actually
    finishes
 7. **Decide in advance what "done enough" means**, so you can end it honestly at diminishing returns
+
+---
+
+*Part of the [ChefPlex TPM portfolio](https://github.com/ChefPlex/tpm-templates/blob/main/PORTFOLIO-GUIDE.md). Maintained by [Eric White](https://www.linkedin.com/in/edwhite). Licensed under [CC BY 4.0](LICENSE).*
