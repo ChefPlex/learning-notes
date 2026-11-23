@@ -18,6 +18,8 @@ Before you sign off on an agent rollout, ask the team for one table: each guardr
 
 ---
 
+*Update, November 2026: a newer hook layer can see connector calls too. Closing the gap is now a choice, not a limit.*
+
 *Posted on LinkedIn, October 2, 2026. The table it asks for is section 4 of the [Agentic AI Program](https://github.com/ChefPlex/ai-automations/tree/main/ai-programs/agentic-ai-program) template. Related code: [agent-guardrails](https://github.com/ChefPlex/agent-guardrails).*
 
 *Part of the [ChefPlex TPM portfolio](https://github.com/ChefPlex/tpm-templates/blob/main/PORTFOLIO-GUIDE.md). Maintained by [Eric White](https://www.linkedin.com/in/edwhite). Licensed under [CC BY 4.0](../LICENSE).*
