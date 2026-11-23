@@ -4,6 +4,8 @@ The long versions of what I publish on LinkedIn, kept here so they can be found,
 
 | Article | Written | What it covers |
 |:---|:---|:---|
+| [Every Control Names Its Reader](every-control-names-its-reader.md) | November 22, 2026 | Two controls that were ticked done and doing nothing: ask to see a control fire, name its reader, and re-check after any move |
+| [AI Agreeing With AI Is Not a Second Opinion](ai-agreeing-with-ai-is-not-a-second-opinion.md) | November 13, 2026 | Six agents, one model, one shared blind spot: four questions to ask any team reporting AI results |
 | [What One More Change Costs](what-one-more-change-costs.md) | November 3, 2026 | A scope change and a schedule change, each priced in days and dollars, and what happens when both land on one program and cross a contract end date |
 | [Promise Less, Deliver More](promise-less-deliver-more.md) | October 27, 2026 | Taking over a cryptography team with a two-year backlog: reset expectations with data, cap the work as a ceiling not a quota, and watch throughput follow morale |
 | [Crypto Agility Is a Program, Not an Algorithm](crypto-agility-is-a-program.md) | October 23, 2026 | What NIST's crypto agility white paper says about post-quantum timelines, ownership and measuring how fast you can change, not how much you have changed |
