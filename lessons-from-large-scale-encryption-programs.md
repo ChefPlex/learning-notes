@@ -67,7 +67,8 @@ This sounds mundane and it's one of the highest-return things in the whole progr
   happens monthly. An automated count can happen continuously, which means you find out about a
   regression in days rather than at the next reporting cycle.
 - **It's what makes the dashboard honest.** Dashboards built on self-reporting are a rendering of
-  what people believe. Dashboards built on a script are a rendering of what is true.
+  what people believe. Dashboards built on a script are a rendering of what the
+  script can see, which is far closer, as long as someone checks what it never counted.
 
 **This type of dashboard and this type of reporting was the single biggest reporting improvement in
 the program.**
