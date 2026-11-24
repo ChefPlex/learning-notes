@@ -41,6 +41,7 @@ These are notes, not templates. When you need something to fill in, the [portfol
 | Note | What It Covers |
 |------|---------------|
 | [TPM Craft: Notes on Running Programs at Scale](tpm-craft-notes.md) | Things learned running security, infrastructure, and compliance programs at enterprise scale that are not in any certification curriculum. On starting programs, planning, execution, stakeholders, teams, reporting, and finishing. Updated as the work teaches new things. |
+| [Running a TPM Practice](running-a-tpm-practice.md) | Leading 15+ consultant TPMs placed at client sites, at Taos from 2011 to 2018: what I tested for when hiring, landing new TPMs at a site, keeping a practice together across sites with a monthly topic meeting and dinner, and what I did, in order, when a placement went wrong. |
 | [Building Program Management Where There Was None](building-program-management-where-there-was-none.md) | Setting up program management inside a cryptography group that had none, at a large SaaS company. The order I put things in (stakeholders, then level-of-effort estimation, then delivery expectations, reporting last), and why reading the PMI process groups as a dependency chain pointed to it, what it cost in the first few sprints, and how the group reached on-time delivery within six months. Companion piece: [Rescuing Work That Is Off Track](https://github.com/ChefPlex/tpm-templates/blob/main/rescuing-work-that-is-off-track.md) in tpm-templates. |
 
 ### Course Notes
