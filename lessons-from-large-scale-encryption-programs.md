@@ -137,7 +137,7 @@ to push harder.
 **It ends at diminishing returns, not at a wall.**
 
 The program ran to roughly 80 percent of services, which got the bulk of it done. What was left was a
-long tail of 60-plus legacy services with no realistic path, and those were **deliberately scoped out.** Then
+long tail of legacy services with no realistic path, and those were **deliberately scoped out.** Then
 the program manager came off, because most of the work was done and what remained was a slow dribble
 over the following six months that did not need dedicated reporting. Periodic check-ins, occasional
 help with an item, and those items were genuinely past the end of the program.
