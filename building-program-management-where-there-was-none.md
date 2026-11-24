@@ -15,6 +15,8 @@ The group I joined had most of what you would see from the outside. It had a bac
 
 The teams that depended on it were unhappy, and they had reason to be. Things they had asked for kept not arriving, and nobody could tell them when they would.
 
+The scale was small enough to hold in your head: about ten engineers, and four main groups of stakeholders, each asking for different things, from key ceremonies to hardware security keys (YubiKeys) for people who needed them. The backlog was too big for any of it to get done, and the engineers knew it. They were demoralized.
+
 It was also a standing team with a continuous stream of requests, which is different from running a program. Nobody hands you a charter for a team, so you attach yourself to it and work out what is broken.
 
 ## What the PMI plan taught me about where to start
@@ -60,7 +62,11 @@ My side of the bargain was blockers. If anyone was stuck for more than a day, it
 
 This made people very unhappy up front. The teams depending on us were being told they would get less than they had asked for, and the resistance came from both directions. Leadership had to accept the smaller number, and the engineers had to accept working to a cap at all.
 
-After a few sprints of the work actually landing when we said it would, the people asking for it started to believe the next date too. By about ninety days things had settled. Within six months the group was delivering on time, and the teams that had complained about it were praising it instead.
+Agreeing to the plan was not the end of it. The stakeholders were still not happy about everything, and they kept bringing small things that would break into a sprint. So I worked with them on a regular basis, and held to the cap and the emergency-work rule every time. That steadiness, more than any single meeting, is what let things relax.
+
+After a few sprints of the work actually landing when we said it would, the people asking for it started to believe the next date too. By about ninety days things had settled. Within six months the group was delivering on time, the teams that had complained about it were praising it instead, and everyone agreed things were going in the right direction. Morale had turned around.
+
+The numbers I reported eight months in, in the team's December status: throughput about twice what it had been when I arrived in April, and 95 percent of committed points closed (714 of 750). The second figure is the closest thing to a measure of "on time": of the work promised for a sprint, 95 percent landed.
 
 The team's throughput went up over the same period. I read that as morale more than method. They had been in a bad place for a long time and had never seen anything come back as positive feedback. So I made a point of giving it, to the team and to their managers and their managers' managers, so that everyone could see what was getting done.
 
